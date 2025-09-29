@@ -49,16 +49,14 @@ export default function RootLayout({
                 aria-label="Velas & Aroma inicio"
                 className="flex items-center gap-3"
               >
-                <span className="relative flex h-12 w-12 items-center justify-center rounded-full border border-brand-sand/80 bg-brand-cream shadow-sm">
-                  <Image
-                    src="/logo.png"
-                    alt="Velas & Aroma"
-                    fill
-                    sizes="48px"
-                    className="object-contain"
-                    priority
-                  />
-                </span>
+                <Image
+                  src="/logo.png"
+                  alt="Velas & Aroma"
+                  width={56}
+                  height={56}
+                  priority
+                  className="h-12 w-12 rounded-full shadow-sm shadow-brand-sand/40 dark:shadow-brand-brown/40"
+                />
                 <span className="text-sm font-semibold uppercase tracking-[0.35em] text-brand-brown">
                   Velas &amp; Aroma
                 </span>

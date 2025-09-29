@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import ThemeToggle from "@/components/theme-toggle";
@@ -25,6 +26,9 @@ export const metadata: Metadata = {
   title: "Velas & Aroma | Aromas artesanales ecuatorianos",
   description:
     "Velas artesanales hechas en Quito con cera de soya, fragancias botánicas y rituales de bienestar.",
+  icons: {
+    icon: [{ url: "/logo.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
@@ -40,9 +44,25 @@ export default function RootLayout({
         <div className="min-h-screen">
           <header className="border-b border-brand-sand/70 bg-brand-cream/95 backdrop-blur">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
-              <span className="text-sm font-semibold uppercase tracking-[0.35em] text-brand-brown">
-                Velas &amp; Aroma
-              </span>
+              <Link
+                href="/"
+                aria-label="Velas & Aroma inicio"
+                className="flex items-center gap-3"
+              >
+                <span className="relative flex h-12 w-12 items-center justify-center rounded-full border border-brand-sand/80 bg-brand-cream shadow-sm">
+                  <Image
+                    src="/logo.png"
+                    alt="Velas & Aroma"
+                    fill
+                    sizes="48px"
+                    className="object-contain"
+                    priority
+                  />
+                </span>
+                <span className="text-sm font-semibold uppercase tracking-[0.35em] text-brand-brown">
+                  Velas &amp; Aroma
+                </span>
+              </Link>
               <div className="flex items-center gap-4">
                 <nav className="hidden items-center gap-6 text-xs font-medium uppercase tracking-[0.25em] text-brand-brown/70 sm:flex">
                   {navItems.map((item) => (

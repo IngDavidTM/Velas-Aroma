@@ -1,3 +1,7 @@
+import BorderPanel from "@/components/border-panel";
+import PageSection from "@/components/page-section";
+import SectionIntro from "@/components/section-intro";
+
 const ritualTracks = [
   {
     title: "Respira profundo",
@@ -49,7 +53,7 @@ const playlists = [
 export default function RitualsPage() {
   return (
     <div className="divide-y divide-brand-sand/60">
-      <section className="px-4 py-14 sm:px-6 md:px-10">
+      <PageSection bordered={false} className="md:px-10">
         <div className="space-y-6 md:max-w-3xl">
           <p className="text-xs uppercase tracking-[0.3em] text-brand-brown/70">
             Rituales Velas & Aroma
@@ -62,16 +66,17 @@ export default function RitualsPage() {
             que puedes adaptar según tu ritmo personal.
           </p>
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
-        <header className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Guías paso a paso</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">Incorpora estos rituales a tu rutina semanal.</h2>
-        </header>
+      <PageSection bordered={false} className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Guías paso a paso"
+          title="Incorpora estos rituales a tu rutina semanal."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-8 md:col-span-8">
           {ritualTracks.map((track) => (
-            <article key={track.title} className="border border-brand-sand/70 p-6">
+            <BorderPanel key={track.title}>
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold text-brand-brown">{track.title}</h3>
                 <p className="text-sm text-brand-charcoal/90">{track.description}</p>
@@ -83,25 +88,26 @@ export default function RitualsPage() {
                   </li>
                 ))}
               </ul>
-            </article>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
-        <header className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Playlists compañeras</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">Sonidos que armonizan con tus velas.</h2>
-        </header>
+      <PageSection bordered={false} className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Playlists compañeras"
+          title="Sonidos que armonizan con tus velas."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-6 md:col-span-8 md:grid md:grid-cols-3 md:gap-6 md:space-y-0">
           {playlists.map((playlist) => (
-            <div key={playlist.label} className="border border-brand-sand/70 p-6">
+            <BorderPanel key={playlist.label}>
               <h3 className="text-base font-semibold text-brand-brown">{playlist.label}</h3>
               <p className="mt-3 text-sm text-brand-charcoal/90">{playlist.mood}</p>
-            </div>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
     </div>
   );
 }

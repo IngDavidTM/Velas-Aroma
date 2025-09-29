@@ -1,3 +1,7 @@
+import BorderPanel from "@/components/border-panel";
+import PageSection from "@/components/page-section";
+import SectionIntro from "@/components/section-intro";
+
 const curatedSets = [
   {
     title: "Alborada",
@@ -35,7 +39,7 @@ const careTips = [
 export default function CollectionPage() {
   return (
     <div className="divide-y divide-brand-sand/60">
-      <section className="px-4 py-14 sm:px-6 md:px-10">
+      <PageSection bordered={false} className="md:px-10">
         <div className="space-y-6 md:max-w-3xl">
           <p className="text-xs uppercase tracking-[0.3em] text-brand-brown/70">
             Colección 2025
@@ -44,28 +48,28 @@ export default function CollectionPage() {
             Aromas diseñados para vestir tu hogar con calma, equilibrio y carácter.
           </h1>
           <p className="text-base text-brand-brown/85 sm:text-lg">
-            Cada vela se vierte manualmente en Quito utilizando cera de soya, mechas de algodón y
-            aceites esenciales de origen responsable. Descubre nuestras curadurías permanentes y ediciones
-            de temporada.
+            Cada vela se vierte manualmente en Quito utilizando cera de soya, mechas de algodón y aceites
+            esenciales de origen responsable. Descubre nuestras curadurías permanentes y ediciones de
+            temporada.
           </p>
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
-        <header className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Curadurías permanentes</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">
-            Selecciona la familia olfativa que acompaña tu ritmo diario.
-          </h2>
-          <p className="text-sm text-brand-brown/85">
-            Puedes combinarlas en sets de tres para crear paisajes aromáticos personalizados.
-          </p>
-        </header>
-
+      <PageSection bordered={false} className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Curadurías permanentes"
+          title="Selecciona la familia olfativa que acompaña tu ritmo diario."
+          description="Puedes combinarlas en sets de tres para crear paisajes aromáticos personalizados."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="md:col-span-8">
           <div className="grid gap-6 md:grid-cols-2">
             {curatedSets.map((set) => (
-              <article key={set.title} className="flex h-full flex-col border border-brand-sand/70 p-6">
+              <BorderPanel
+                as="article"
+                key={set.title}
+                className="flex h-full flex-col"
+              >
                 <div className="space-y-3">
                   <h3 className="text-lg font-semibold text-brand-brown">{set.title}</h3>
                   <p className="text-sm text-brand-charcoal/90">{set.description}</p>
@@ -73,25 +77,26 @@ export default function CollectionPage() {
                 <p className="mt-6 text-xs uppercase tracking-[0.15em] text-brand-brown/75">
                   {set.notes}
                 </p>
-              </article>
+              </BorderPanel>
             ))}
           </div>
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
-        <header className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Cuidado esencial</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">Prolonga la vida de tus velas.</h2>
-        </header>
+      <PageSection bordered={false} className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Cuidado esencial"
+          title="Prolonga la vida de tus velas."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-6 md:col-span-8">
           {careTips.map((tip) => (
-            <div key={tip} className="border border-brand-sand/70 p-6">
+            <BorderPanel key={tip}>
               <p className="text-sm text-brand-charcoal/90">{tip}</p>
-            </div>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
     </div>
   );
 }

@@ -1,4 +1,7 @@
 import Link from "next/link";
+import BorderPanel from "@/components/border-panel";
+import PageSection from "@/components/page-section";
+import SectionIntro from "@/components/section-intro";
 
 const collectionHighlights = [
   {
@@ -60,7 +63,7 @@ const values = [
 export default function Home() {
   return (
     <>
-      <section className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:px-10 md:py-20">
+      <PageSection className="md:px-10 md:py-20">
         <div className="space-y-6 md:max-w-3xl">
           <p className="text-xs uppercase tracking-[0.3em] text-brand-brown/70">
             Aromas que habitan tu espacio
@@ -87,75 +90,69 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </PageSection>
 
-      <section
-        id="coleccion"
-        className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10"
-      >
-        <div className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Colección boutique</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">
-            Selecciona la vela que resuena con tu atmósfera ideal.
-          </h2>
-          <p className="text-sm text-brand-brown/85">
-            Utilizamos tonos cálidos y detalles neutros para integrarse a cualquier estilo de interiorismo.
-          </p>
-        </div>
-
+      <PageSection id="coleccion" className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Colección boutique"
+          title="Selecciona la vela que resuena con tu atmósfera ideal."
+          description="Utilizamos tonos cálidos y detalles neutros para integrarse a cualquier estilo de interiorismo."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-8 md:col-span-8">
           {collectionHighlights.map((item) => (
-            <article key={item.title} className="grid gap-3 border border-brand-sand/70 p-6 md:grid-cols-3 md:items-center md:gap-6">
+            <BorderPanel
+              as="article"
+              key={item.title}
+              className="grid gap-3 md:grid-cols-3 md:items-center md:gap-6"
+            >
               <h3 className="text-lg font-semibold text-brand-brown md:col-span-1">{item.title}</h3>
               <p className="text-sm text-brand-charcoal md:col-span-1">{item.description}</p>
               <p className="text-xs uppercase tracking-[0.15em] text-brand-brown/80 md:col-span-1">
                 {item.detail}
               </p>
-            </article>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
 
-      <section
-        id="rituales"
-        className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10"
-      >
-        <div className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Rituales sensoriales</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">
-            Diseña experiencias para acompañar cada instante del día.
-          </h2>
-          <p className="text-sm text-brand-brown/85">
-            Combina playlists, respiraciones y luz cálida para transformar ambientes cotidianos en refugios memorables.
-          </p>
-        </div>
-
+      <PageSection id="rituales" className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Rituales sensoriales"
+          title="Diseña experiencias para acompañar cada instante del día."
+          description="Combina playlists, respiraciones y luz cálida para transformar ambientes cotidianos en refugios memorables."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-6 md:col-span-8 md:grid md:grid-cols-3 md:gap-6 md:space-y-0">
           {ritualMoments.map((moment) => (
-            <div key={moment.heading} className="flex flex-col justify-between border border-brand-sand/70 p-6">
+            <BorderPanel
+              key={moment.heading}
+              className="flex h-full flex-col justify-between"
+            >
               <h3 className="text-base font-semibold text-brand-brown">{moment.heading}</h3>
               <p className="mt-4 text-sm text-brand-charcoal/90">{moment.text}</p>
-            </div>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
 
-      <section className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
-        <div className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Nuestro manifiesto</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">Sostenemos vínculos a través del aroma.</h2>
-        </div>
+      <PageSection className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Nuestro manifiesto"
+          title="Sostenemos vínculos a través del aroma."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-6 md:col-span-8">
           {values.map((value) => (
-            <div key={value.heading} className="border border-brand-sand/70 p-6">
+            <BorderPanel key={value.heading}>
               <h3 className="text-lg font-semibold text-brand-brown">{value.heading}</h3>
               <p className="mt-3 text-sm text-brand-charcoal/90">{value.body}</p>
-            </div>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:px-10" id="contacto">
+      <PageSection id="contacto" bordered={false} className="md:px-10">
         <div className="border border-brand-charcoal bg-brand-brown px-6 py-12 text-brand-cream md:px-10">
           <p className="text-xs uppercase tracking-[0.25em] text-brand-cream/80">Contacto directo</p>
           <h2 className="mt-6 text-3xl leading-tight sm:text-4xl">
@@ -190,7 +187,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </PageSection>
     </>
   );
 }

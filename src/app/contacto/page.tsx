@@ -1,3 +1,7 @@
+import BorderPanel from "@/components/border-panel";
+import PageSection from "@/components/page-section";
+import SectionIntro from "@/components/section-intro";
+
 const contactChannels = [
   {
     heading: "Llámanos",
@@ -28,7 +32,7 @@ const showroomInfo = [
 export default function ContactPage() {
   return (
     <div className="divide-y divide-brand-sand/60">
-      <section className="px-4 py-14 sm:px-6 md:px-10">
+      <PageSection bordered={false} className="md:px-10">
         <div className="space-y-6 md:max-w-3xl">
           <p className="text-xs uppercase tracking-[0.3em] text-brand-brown/70">Contacto</p>
           <h1 className="text-4xl leading-tight sm:text-5xl md:text-[3.5rem] md:leading-[1.07]">
@@ -38,19 +42,21 @@ export default function ContactPage() {
             Completa los canales disponibles o agenda una cita para visitarnos en nuestro showroom.
           </p>
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
-        <header className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Canales directos</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">Estamos cerca de ti.</h2>
-        </header>
+      <PageSection bordered={false} className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Canales directos"
+          title="Estamos cerca de ti."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-6 md:col-span-8 md:grid md:grid-cols-3 md:gap-6 md:space-y-0">
           {contactChannels.map((channel) => (
-            <a
+            <BorderPanel
+              as="a"
               key={channel.heading}
               href={channel.link}
-              className="flex h-full flex-col justify-between border border-brand-sand/70 p-6 transition hover:bg-brand-sand/40"
+              className="flex h-full flex-col justify-between transition hover:bg-brand-sand/40"
               target={channel.link.startsWith("http") ? "_blank" : undefined}
               rel={channel.link.startsWith("http") ? "noreferrer" : undefined}
             >
@@ -59,26 +65,27 @@ export default function ContactPage() {
                 <p className="text-sm text-brand-charcoal/90">{channel.description}</p>
               </div>
               <p className="mt-6 text-xs uppercase tracking-[0.15em] text-brand-brown/80">{channel.detail}</p>
-            </a>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
-        <header className="mb-10 space-y-4 md:col-span-4 md:mb-0">
-          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Showroom</p>
-          <h2 className="text-3xl leading-tight sm:text-4xl">Visítanos con cita.</h2>
-        </header>
+      <PageSection bordered={false} className="md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <SectionIntro
+          eyebrow="Showroom"
+          title="Visítanos con cita."
+          className="mb-10 md:col-span-4 md:mb-0"
+        />
         <div className="space-y-6 md:col-span-8">
           {showroomInfo.map((info) => (
-            <div key={info} className="border border-brand-sand/70 p-6">
+            <BorderPanel key={info}>
               <p className="text-sm text-brand-charcoal/90">{info}</p>
-            </div>
+            </BorderPanel>
           ))}
         </div>
-      </section>
+      </PageSection>
 
-      <section className="px-4 py-14 sm:px-6 md:px-10">
+      <PageSection bordered={false} className="md:px-10">
         <div className="border border-brand-sand/70 p-6 md:p-10">
           <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Formulario express</p>
           <form className="mt-8 grid gap-6 md:grid-cols-2">
@@ -117,7 +124,7 @@ export default function ContactPage() {
             </button>
           </form>
         </div>
-      </section>
+      </PageSection>
     </div>
   );
 }

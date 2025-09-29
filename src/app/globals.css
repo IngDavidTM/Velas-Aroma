@@ -10,6 +10,12 @@
   --brand-brown: #8c5a3c;
   --brand-charcoal: #2f2723;
   --brand-sage: #c7d2c3;
+  --scrollbar-thumb: color-mix(in srgb, var(--brand-brown) 25%, var(--brand-cream) 75%);
+  --scrollbar-thumb-hover: color-mix(
+    in srgb,
+    var(--brand-brown) 35%,
+    var(--brand-cream) 65%
+  );
 }
 
 @theme inline {
@@ -41,6 +47,12 @@ html.dark {
   --brand-brown: #b88464;
   --brand-charcoal: #f4e6d7;
   --brand-sage: #4b554d;
+  --scrollbar-thumb: color-mix(in srgb, var(--brand-brown) 55%, transparent);
+  --scrollbar-thumb-hover: color-mix(
+    in srgb,
+    var(--brand-brown) 70%,
+    transparent 30%
+  );
 }
 
 *,
@@ -56,11 +68,33 @@ body {
     BlinkMacSystemFont, sans-serif;
   letter-spacing: -0.01em;
   transition: background-color 200ms ease, color 200ms ease;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
 }
 
 ::selection {
   background-color: color-mix(in srgb, var(--brand-brown) 40%, transparent);
   color: var(--brand-cream);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--background) 85%, transparent);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,57 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
-type Theme = "light" | "dark";
+import { useTheme } from "@/components/theme-provider";
 
 type ThemeToggleProps = {
   className?: string;
   compact?: boolean;
 };
 
-const STORAGE_KEY = "vela-theme";
-
 export default function ThemeToggle({ className = "", compact = false }: ThemeToggleProps) {
-  const [theme, setTheme] = useState<Theme>("light");
-
-  useEffect(() => {
-    const stored = ((): Theme | null => {
-      try {
-        const value = localStorage.getItem(STORAGE_KEY);
-        if (value === "light" || value === "dark") {
-          return value;
-        }
-      } catch (error) {
-        console.error("No fue posible leer el tema guardado", error);
-      }
-      return null;
-    })();
-
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const initialTheme: Theme = stored ?? (prefersDark ? "dark" : "light");
-    applyTheme(initialTheme);
-    setTheme(initialTheme);
-  }, []);
-
-  const applyTheme = (value: Theme) => {
-    const root = document.documentElement;
-    if (value === "dark") {
-      root.classList.add("dark");
-    } else {
-      root.classList.remove("dark");
-    }
-    try {
-      localStorage.setItem(STORAGE_KEY, value);
-    } catch (error) {
-      console.error("No fue posible guardar la preferencia de tema", error);
-    }
-  };
-
-  const toggleTheme = () => {
-    const nextTheme: Theme = theme === "dark" ? "light" : "dark";
-    applyTheme(nextTheme);
-    setTheme(nextTheme);
-  };
+  const { theme, toggleTheme } = useTheme();
 
   const baseClasses =
     "inline-flex items-center gap-3 border border-brand-brown bg-transparent text-brand-charcoal transition hover:bg-brand-brown hover:text-brand-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-brown";

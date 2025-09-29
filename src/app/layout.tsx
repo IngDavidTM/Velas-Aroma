@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import ThemeToggle from "@/components/theme-toggle";
+import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -41,8 +42,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-brand-cream text-brand-charcoal`}
       >
-        <div className="min-h-screen">
-          <header className="border-b border-brand-sand/70 bg-brand-cream/95 backdrop-blur">
+        <ThemeProvider>
+          <div className="min-h-screen">
+            <header className="border-b border-brand-sand/70 bg-brand-cream/95 backdrop-blur">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
               <Link
                 href="/"
@@ -69,32 +71,35 @@ export default function RootLayout({
                     </Link>
                   ))}
                 </nav>
-                <ThemeToggle className="hidden sm:inline-flex" />
+                <div className="hidden sm:inline-flex">
+                  <ThemeToggle />
+                </div>
               </div>
             </div>
-            <div className="mx-auto flex w-full max-w-6xl items-center gap-4 border-t border-brand-sand/70 px-4 py-3 sm:hidden">
-              <nav className="flex flex-1 items-center gap-4 overflow-x-auto text-[0.7rem] font-medium uppercase tracking-[0.25em] text-brand-brown/70">
+            <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 border-t border-brand-sand/70 px-4 py-3 sm:hidden">
+              <nav className="flex flex-1 items-center gap-4 overflow-x-auto text-[0.75rem] font-medium uppercase tracking-[0.25em] text-brand-brown/70">
                 {navItems.map((item) => (
-                  <Link key={item.href} href={item.href} className="flex-shrink-0 transition hover:text-brand-brown">
+                  <Link key={item.href} href={item.href} className="transition hover:text-brand-brown">
                     {item.label}
                   </Link>
                 ))}
               </nav>
               <ThemeToggle className="flex-shrink-0 sm:hidden" compact />
             </div>
-          </header>
+            </header>
 
-          <main className="mx-auto w-full max-w-6xl md:border-l md:border-r md:border-brand-sand/60">
-            {children}
-          </main>
+            <main className="mx-auto w-full max-w-6xl md:border-l md:border-r md:border-brand-sand/60">
+              {children}
+            </main>
 
-          <footer className="border-t border-brand-sand/70 bg-brand-cream/95">
-            <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-brand-brown/80 sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:text-sm">
-              <p>&copy; {new Date().getFullYear()} Velas &amp; Aroma. Todos los derechos reservados.</p>
-              <p>Hecho a mano en Ecuador.</p>
-            </div>
-          </footer>
-        </div>
+            <footer className="border-t border-brand-sand/70 bg-brand-cream/95">
+              <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-brand-brown/80 sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:text-sm">
+                <p>&copy; {new Date().getFullYear()} Velas &amp; Aroma. Todos los derechos reservados.</p>
+                <p>Hecho a mano en Ecuador.</p>
+              </div>
+            </footer>
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -1,103 +1,196 @@
-import Image from "next/image";
+import Link from "next/link";
+
+const collectionHighlights = [
+  {
+    title: "Velas botánicas",
+    description:
+      "Cera de soya y aceites esenciales en mezclas equilibradas que llenan tu espacio sin saturarlo.",
+    detail: "Notas estrella: vainilla especiada, cedro y bergamota dulce.",
+  },
+  {
+    title: "Ediciones de temporada",
+    description:
+      "Series limitadas inspiradas en festividades andinas y paisajes ecuatorianos.",
+    detail: "Empaques reutilizables y tarjetas personalizadas lista para regalo.",
+  },
+  {
+    title: "Ritual de bienestar",
+    description:
+      "Guía sensorial para acompañar tu vela con respiraciones, afirmaciones y música curada.",
+    detail: "Acceso a playlists y meditaciones exclusivas.",
+  },
+  {
+    title: "Círculo sustentable",
+    description:
+      "Programa de recarga y retornos para dar nueva vida a tus recipientes favoritos.",
+    detail: "Descuentos especiales por cada contenedor devuelto.",
+  },
+];
+
+const ritualMoments = [
+  {
+    heading: "Atmósfera calma",
+    text: "Lavanda, salvia y un toque de sándalo para tu rincón de lectura.",
+  },
+  {
+    heading: "Impulso creativo",
+    text: "Mandarina, té blanco y romero que energizan tus sesiones de trabajo.",
+  },
+  {
+    heading: "Cena íntima",
+    text: "Cardamomo, miel ahumada y cedro para momentos memorables.",
+  },
+];
+
+const values = [
+  {
+    heading: "Hecho en Quito",
+    body: "Pequeños lotes elaborados a mano con ingredientes locales y responsables.",
+  },
+  {
+    heading: "Comunidad",
+    body: "Personalizamos aromas para eventos, marcas aliadas y rituales familiares.",
+  },
+  {
+    heading: "Transparencia",
+    body: "Compartimos origen de cada insumo y ofrecemos recargas para reducir desperdicios.",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <section className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:px-10 md:py-20">
+        <div className="space-y-6 md:max-w-3xl">
+          <p className="text-xs uppercase tracking-[0.3em] text-brand-brown/70">
+            Aromas que habitan tu espacio
+          </p>
+          <h1 className="text-4xl leading-tight sm:text-5xl md:text-[3.5rem] md:leading-[1.07]">
+            Velas artesanales que conectan tus sentidos con momentos de calma y calidez.
+          </h1>
+          <p className="text-base text-brand-brown/85 sm:text-lg">
+            Cada creación se vierte a mano utilizando cera de soya, mechas de algodón y aceites esenciales
+            cuidadosamente seleccionados para mantener la armonía en tu hogar.
+          </p>
+          <div className="flex flex-col gap-4 sm:flex-row">
+            <Link
+              href="/coleccion"
+              className="inline-flex min-h-[44px] items-center justify-center border border-brand-brown px-6 text-sm font-medium uppercase tracking-[0.2em] text-brand-charcoal transition hover:bg-brand-brown hover:text-brand-cream"
+            >
+              Ver colección
+            </Link>
+            <Link
+              href="/contacto"
+              className="inline-flex min-h-[44px] items-center justify-center border border-brand-charcoal px-6 text-sm font-medium uppercase tracking-[0.2em] text-brand-charcoal transition hover:bg-brand-charcoal hover:text-brand-cream"
+            >
+              Agenda asesoría
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      <section
+        id="coleccion"
+        className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10"
+      >
+        <div className="mb-10 space-y-4 md:col-span-4 md:mb-0">
+          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Colección boutique</p>
+          <h2 className="text-3xl leading-tight sm:text-4xl">
+            Selecciona la vela que resuena con tu atmósfera ideal.
+          </h2>
+          <p className="text-sm text-brand-brown/85">
+            Utilizamos tonos cálidos y detalles neutros para integrarse a cualquier estilo de interiorismo.
+          </p>
+        </div>
+
+        <div className="space-y-8 md:col-span-8">
+          {collectionHighlights.map((item) => (
+            <article key={item.title} className="grid gap-3 border border-brand-sand/70 p-6 md:grid-cols-3 md:items-center md:gap-6">
+              <h3 className="text-lg font-semibold text-brand-brown md:col-span-1">{item.title}</h3>
+              <p className="text-sm text-brand-charcoal md:col-span-1">{item.description}</p>
+              <p className="text-xs uppercase tracking-[0.15em] text-brand-brown/80 md:col-span-1">
+                {item.detail}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section
+        id="rituales"
+        className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10"
+      >
+        <div className="mb-10 space-y-4 md:col-span-4 md:mb-0">
+          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Rituales sensoriales</p>
+          <h2 className="text-3xl leading-tight sm:text-4xl">
+            Diseña experiencias para acompañar cada instante del día.
+          </h2>
+          <p className="text-sm text-brand-brown/85">
+            Combina playlists, respiraciones y luz cálida para transformar ambientes cotidianos en refugios memorables.
+          </p>
+        </div>
+
+        <div className="space-y-6 md:col-span-8 md:grid md:grid-cols-3 md:gap-6 md:space-y-0">
+          {ritualMoments.map((moment) => (
+            <div key={moment.heading} className="flex flex-col justify-between border border-brand-sand/70 p-6">
+              <h3 className="text-base font-semibold text-brand-brown">{moment.heading}</h3>
+              <p className="mt-4 text-sm text-brand-charcoal/90">{moment.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-b border-brand-sand/60 px-4 py-14 sm:px-6 md:grid md:grid-cols-12 md:gap-10 md:px-10">
+        <div className="mb-10 space-y-4 md:col-span-4 md:mb-0">
+          <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Nuestro manifiesto</p>
+          <h2 className="text-3xl leading-tight sm:text-4xl">Sostenemos vínculos a través del aroma.</h2>
+        </div>
+        <div className="space-y-6 md:col-span-8">
+          {values.map((value) => (
+            <div key={value.heading} className="border border-brand-sand/70 p-6">
+              <h3 className="text-lg font-semibold text-brand-brown">{value.heading}</h3>
+              <p className="mt-3 text-sm text-brand-charcoal/90">{value.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="px-4 py-14 sm:px-6 md:px-10" id="contacto">
+        <div className="border border-brand-charcoal bg-brand-brown px-6 py-12 text-brand-cream md:px-10">
+          <p className="text-xs uppercase tracking-[0.25em] text-brand-cream/80">Contacto directo</p>
+          <h2 className="mt-6 text-3xl leading-tight sm:text-4xl">
+            Agenda una asesoría olfativa personalizada.
+          </h2>
+          <p className="mt-4 max-w-2xl text-sm text-brand-cream/85 sm:text-base">
+            Escríbenos para recibir recomendaciones según la ocasión, el tamaño de tu espacio y la energía que deseas potenciar.
+          </p>
+          <div className="mt-10 grid gap-6 text-sm sm:grid-cols-3 sm:text-base">
+            <div>
+              <p className="font-semibold uppercase tracking-[0.15em] text-brand-cream">Teléfono</p>
+              <a href="tel:+593987832616" className="mt-2 inline-block text-brand-cream/85">
+                +593 98 783 2616
+              </a>
+            </div>
+            <div>
+              <p className="font-semibold uppercase tracking-[0.15em] text-brand-cream">Instagram</p>
+              <a
+                href="https://instagram.com/velasyaroma.ec"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-2 inline-block text-brand-cream/85"
+              >
+                @velasyaroma.ec
+              </a>
+            </div>
+            <div>
+              <p className="font-semibold uppercase tracking-[0.15em] text-brand-cream">Showroom</p>
+              <p className="mt-2 text-brand-cream/85">
+                Pasaje Rumiñahui y Francisco de Orellana, Tumbaco
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

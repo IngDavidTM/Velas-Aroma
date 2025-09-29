@@ -26,15 +26,45 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+  --background: #14100d;
+  --foreground: #f4e6d7;
+  --brand-cream: #1d1713;
+  --brand-sand: #2b211b;
+  --brand-clay: #3b2a23;
+  --brand-blush: #5a3a2e;
+  --brand-brown: #b88464;
+  --brand-charcoal: #f4e6d7;
+  --brand-sage: #4b554d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.01em;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--brand-brown) 40%, transparent);
+  color: var(--brand-cream);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
 }

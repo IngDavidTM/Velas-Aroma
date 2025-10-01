@@ -18,9 +18,13 @@ const geistMono = Geist_Mono({
 
 const navItems = [
   { href: "/", label: "Inicio" },
-  { href: "/coleccion", label: "Colección" },
-  { href: "/rituales", label: "Rituales" },
+  { href: "/tienda", label: "Tienda" },
+  { href: "/servicios", label: "Servicios" },
+  { href: "/nosotros", label: "Nosotros" },
+  { href: "/envios", label: "Envíos" },
+  { href: "/pagos", label: "Pagos" },
   { href: "/contacto", label: "Contacto" },
+  { href: "/carrito", label: "Carrito" },
 ];
 
 export const metadata: Metadata = {

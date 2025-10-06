@@ -11,8 +11,13 @@ const contextualFilters: Record<string, string[]> = {
   jardin: ["Lavanda", "Hierbas", "Cítricos"],
 };
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
-  const collection = getCollectionBySlug(params.slug);
+export default async function CategoryPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const collection = getCollectionBySlug(slug);
 
   if (!collection) {
     notFound();

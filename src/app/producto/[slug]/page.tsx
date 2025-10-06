@@ -8,8 +8,13 @@ import BorderPanel from "@/components/border-panel";
 import { getProductBySlug, getProductsByCategory } from "@/data/products";
 import { aromaOptions, contactInfo } from "@/data/site";
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = getProductBySlug(params.slug);
+export default async function ProductPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
 
   if (!product) {
     notFound();

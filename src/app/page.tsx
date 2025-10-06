@@ -33,9 +33,7 @@ const soyBenefits = [
 ];
 
 const homeHighlights = products.filter((product) =>
-  ["arbol-navideno-clasico", "peonia-escultorica", "coleccion-unicos"].includes(
-    product.slug,
-  ),
+  ["arbol-navideno-10x5", "flor-peonia-4x8", "champagne-20x6"].includes(product.slug),
 );
 
 export default function Home() {

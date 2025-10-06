@@ -17,15 +17,17 @@ export default function ShippingPage() {
         <BorderPanel>
           <h3 className="text-lg font-semibold text-brand-brown">Cobertura y costos</h3>
           <ul className="mt-3 space-y-2 text-sm text-brand-charcoal/80">
-            <li>Quito urbano: $3 - entrega en 24-48h una vez lista la producción.</li>
-            <li>Cumbayá / Tumbaco: $2 - entrega en 12-24h.</li>
-            <li>Valle de Los Chillos y norte de Quito: $4 - coordinación previa.</li>
+            <li>Quito urbano: $4</li>
+            <li>Cumbayá / Tumbaco: $3</li>
+            <li>Valle de Los Chillos y norte de Quito: $4</li>
+            <li>Entregas de hasta 12 artículos: tiempo estimado mínimo de 48 horas.</li>
+            <li>Entregas superiores a 12 artículos: tiempo estimado mínimo de 1 semana.</li>
           </ul>
         </BorderPanel>
         <BorderPanel>
           <h3 className="text-lg font-semibold text-brand-brown">Políticas de entrega</h3>
           <ul className="mt-3 space-y-2 text-sm text-brand-charcoal/80">
-            <li>Coordinamos horario con 24h de anticipación.</li>
+            <li>Coordinamos horario con 48h de anticipación para pedidos pequeños y 1 semana en pedidos grandes.</li>
             <li>Reintentos adicionales generan recargo según zona.</li>
             <li>Retiro sin costo en el showroom: {contactInfo.address}.</li>
           </ul>

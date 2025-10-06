@@ -24,7 +24,8 @@
 
 - `site.ts` – Contacto, aromas, chips de servicios, FAQ.
 - `collections.ts` – Colecciones disponibles y helper.
-- `products.ts` – Modelo de producto según requerimientos y helpers.
+- `products.json` – Dataset editable (precios, descripciones, imágenes) para cada vela.
+- `products.ts` – Tipos y helpers (`getProductBySlug`, `getProductsByCategory`, `featuredProducts`).
 - `services.ts` – Descripción de servicios.
 - `testimonials.ts` – Citas de clientes.
 

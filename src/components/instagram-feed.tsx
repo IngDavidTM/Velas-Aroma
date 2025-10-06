@@ -5,12 +5,14 @@ import SectionIntro from "@/components/section-intro";
 import { contactInfo } from "@/data/site";
 
 const mockFeed = [
-  "/images/ig/feed-1.jpg",
-  "/images/ig/feed-2.jpg",
-  "/images/ig/feed-3.jpg",
-  "/images/ig/feed-4.jpg",
-  "/images/ig/feed-5.jpg",
-  "/images/ig/feed-6.jpg",
+  "/images/ig/ig1.avif",
+  "/images/ig/ig2.avif",
+  "/images/ig/ig3.avif",
+  "/images/ig/ig4.avif",
+  "/images/ig/ig5.avif",
+  "/images/ig/ig6.avif",
+  "/images/ig/ig7.avif",
+  "/images/ig/ig8.avif",
 ];
 
 export default function InstagramFeed() {

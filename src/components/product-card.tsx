@@ -31,6 +31,7 @@ export default function ProductCard({ product, layout = "grid" }: ProductCardPro
         <p className="text-sm text-brand-charcoal/80">{product.descripcionCorta}</p>
         <div className="mt-3 flex flex-wrap items-center gap-2 text-xs uppercase tracking-[0.2em] text-brand-brown/70">
           <span>${product.precioBase.toFixed(2)}</span>
+          <span>{product.medidas.altoCm}×{product.medidas.anchoCm} cm</span>
           {product.personalizable ? (
             <span className="rounded-full border border-brand-brown/60 px-2 py-1 text-[0.6rem]">
               Personalizable

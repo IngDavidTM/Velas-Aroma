@@ -1,0 +1,449 @@
+[
+  {
+    "id": "navidad-arbol-clasico",
+    "slug": "arbol-navideno-clasico",
+    "nombre": "Árbol Navideño Clásico",
+    "categoria": "navidad",
+    "descripcionCorta": "Aroma cálido de manzana y canela con notas de pino andino.",
+    "descripcionLarga": "Vela escultórica en forma de árbol navideño, hecha con cera de soya y detalles perlados. Ideal para mesas festivas o regalos corporativos.",
+    "medidas": {
+      "altoCm": 12,
+      "anchoCm": 6
+    },
+    "precioBase": 4.5,
+    "extras": [
+      {
+        "nombre": "Base de madera",
+        "precio": 1
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Manzana y canela",
+      "Frutos rojos",
+      "Vainilla macadamia"
+    ],
+    "coloresDisponibles": [
+      "Verde bosque",
+      "Marfil",
+      "Champagne"
+    ],
+    "imagenes": [
+      "/images/Candles/Navidad/tree1.avif",
+      "/images/Candles/Navidad/tree2.avif",
+      "/images/Candles/Navidad/tree3.avif"
+    ],
+    "tags": [
+      "top ventas",
+      "edición navidad"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "navidad-guirnalda",
+    "slug": "guirnalda-invernal",
+    "nombre": "Guirnalda Invernal",
+    "categoria": "navidad",
+    "descripcionCorta": "Perfuma tus reuniones con notas especiadas y madera dulce.",
+    "descripcionLarga": "Guirnalda aromática moldeada a mano con detalles de hojas. Aporta calidez a repisas y centros de mesa.",
+    "medidas": {
+      "altoCm": 4,
+      "anchoCm": 12
+    },
+    "precioBase": 6,
+    "extras": [
+      {
+        "nombre": "Caja de regalo",
+        "precio": 2
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Bosque navideño",
+      "Frutos rojos",
+      "Belle Glamour"
+    ],
+    "coloresDisponibles": [
+      "Verde oliva",
+      "Terracota",
+      "Blanco"
+    ],
+    "imagenes": [
+      "/images/Candles/Navidad/tree2.avif",
+      "/images/Candles/Navidad/tree1.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "flores-peonia",
+    "slug": "peonia-escultorica",
+    "nombre": "Peonía Escultórica",
+    "categoria": "flores",
+    "descripcionCorta": "Flores de cera con aroma a jazmín, rosas y violeta.",
+    "descripcionLarga": "Peonías esculpidas en distintos tamaños para centros de mesa y regalos delicados. Se pueden personalizar en paletas pastel o vibrantes.",
+    "medidas": {
+      "altoCm": 8,
+      "anchoCm": 8
+    },
+    "precioBase": 5,
+    "extras": [
+      {
+        "nombre": "Base de madera",
+        "precio": 1
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Jazmín",
+      "Violeta",
+      "Manzanilla"
+    ],
+    "coloresDisponibles": [
+      "Rosa cuarzo",
+      "Lavanda",
+      "Marfil"
+    ],
+    "imagenes": [
+      "/images/Candles/Flores/flor1.avif",
+      "/images/Candles/Flores/flor2.avif",
+      "/images/Candles/Flores/flor3.avif"
+    ],
+    "tags": [
+      "top ventas",
+      "flores"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "flores-bouquet",
+    "slug": "bouquet-primavera",
+    "nombre": "Bouquet Primavera",
+    "categoria": "flores",
+    "descripcionCorta": "Combinación de peonías, lilas y rosas en fragancia floral.",
+    "descripcionLarga": "Set de tres velas florales para decorar dormitorios o salas. Incluye packaging reutilizable.",
+    "medidas": {
+      "altoCm": 6,
+      "anchoCm": 6
+    },
+    "precioBase": 12,
+    "extras": [
+      {
+        "nombre": "Tarjeta personalizada",
+        "precio": 0.5
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Jazmín",
+      "Belle Glamour",
+      "Violeta"
+    ],
+    "coloresDisponibles": [
+      "Rosa viejo",
+      "Melocotón",
+      "Avena"
+    ],
+    "imagenes": [
+      "/images/Candles/Flores/flor4.avif",
+      "/images/Candles/Flores/flor5.avif",
+      "/images/Candles/Flores/flor6.avif"
+    ],
+    "tags": [
+      "combo",
+      "flores"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "bebidas-copa-champagne",
+    "slug": "copa-champagne-rose",
+    "nombre": "Copa Champagne Rosé",
+    "categoria": "bebidas-postres",
+    "descripcionCorta": "Notas espumosas con frutos rojos y vainilla.",
+    "descripcionLarga": "Velas vertidas en copas reutilizables. Perfectas para celebraciones íntimas o regalos corporativos premium.",
+    "medidas": {
+      "altoCm": 9,
+      "anchoCm": 4
+    },
+    "precioBase": 7,
+    "extras": [
+      {
+        "nombre": "Moño de lino",
+        "precio": 0.75
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Champagne",
+      "Frutos rojos",
+      "Belle Glamour"
+    ],
+    "coloresDisponibles": [
+      "Champagne",
+      "Rose",
+      "Ámbar"
+    ],
+    "imagenes": [
+      "/images/Candles/Postres/postre1.avif",
+      "/images/Candles/Postres/postre2.avif",
+      "/images/Candles/Postres/postre3.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "bebidas-latte-vainilla",
+    "slug": "latte-vainilla-macadamia",
+    "nombre": "Latte Vainilla Macadamia",
+    "categoria": "bebidas-postres",
+    "descripcionCorta": "Aroma gourmand con crema de vainilla y nueces tostadas.",
+    "descripcionLarga": "Vaso de vidrio matizado con tapa de madera. Ideal para oficinas o salas de estar.",
+    "medidas": {
+      "altoCm": 8,
+      "anchoCm": 7
+    },
+    "precioBase": 8,
+    "personalizable": false,
+    "aromasDisponibles": [
+      "Vainilla macadamia",
+      "Chocolate",
+      "Argán"
+    ],
+    "coloresDisponibles": [
+      "Caramelo",
+      "Marfil"
+    ],
+    "imagenes": [
+      "/images/Candles/Postres/postre4.avif",
+      "/images/Candles/Postres/postre5.avif",
+      "/images/Candles/Postres/postre6.avif"
+    ],
+    "tags": [
+      "top ventas"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "jardin-sage",
+    "slug": "garden-sage",
+    "nombre": "Garden Sage",
+    "categoria": "jardin",
+    "descripcionCorta": "Hierbas frescas con notas de eucalipto y hierba luisa.",
+    "descripcionLarga": "Colección botánica con contenedores de cerámica mate. Aporta frescura a estudios y balcones.",
+    "medidas": {
+      "altoCm": 9,
+      "anchoCm": 7
+    },
+    "precioBase": 7.5,
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Hierba luisa",
+      "Eucalipto",
+      "Menta"
+    ],
+    "coloresDisponibles": [
+      "Sage",
+      "Menta",
+      "Stone"
+    ],
+    "imagenes": [
+      "/images/Candles/Jardin/planta1.avif",
+      "/images/Candles/Jardin/planta2.avif",
+      "/images/Candles/Jardin/planta3.avif"
+    ],
+    "tags": [
+      "jardín"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "sanvalentin-pack",
+    "slug": "pack-san-valentin",
+    "nombre": "Pack San Valentín",
+    "categoria": "amor-amistad",
+    "descripcionCorta": "Velas en forma de corazón con aromas florales y frutales.",
+    "descripcionLarga": "Set de seis velas mini con mensajes personalizables. Incluye caja con cinta y tarjeta.",
+    "medidas": {
+      "altoCm": 3,
+      "anchoCm": 5
+    },
+    "precioBase": 10,
+    "extras": [
+      {
+        "nombre": "Tarjeta manuscrita",
+        "precio": 1
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Frutos rojos",
+      "Champagne",
+      "Jazmín"
+    ],
+    "coloresDisponibles": [
+      "Carmín",
+      "Rosa blush",
+      "Marfil"
+    ],
+    "imagenes": [
+      "/images/Candles/SanValentin/amor1.avif",
+      "/images/Candles/SanValentin/amor2.avif",
+      "/images/Candles/SanValentin/amor3.avif"
+    ],
+    "tags": [
+      "combo"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "madre-edicion",
+    "slug": "coleccion-dia-de-la-madre",
+    "nombre": "Colección Día de la Madre",
+    "categoria": "mama",
+    "descripcionCorta": "Fragancias florales suaves con empaque de edición especial.",
+    "descripcionLarga": "Set de dos velas medianas y una mini acompañada de flor seca. Disponible en tonos rosados y cremas.",
+    "medidas": {
+      "altoCm": 7,
+      "anchoCm": 6
+    },
+    "precioBase": 14,
+    "extras": [
+      {
+        "nombre": "Caja rígida reutilizable",
+        "precio": 2.5
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Manzanilla",
+      "Jazmín",
+      "Argán"
+    ],
+    "coloresDisponibles": [
+      "Blush",
+      "Champagne",
+      "Perla"
+    ],
+    "imagenes": [
+      "/images/Candles/Madre/mama1.avif",
+      "/images/Candles/Madre/mama2.avif",
+      "/images/Candles/Madre/mama3.avif",
+      "/images/Candles/Madre/mama4.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "autor-minimal",
+    "slug": "edicion-autor-minimal",
+    "nombre": "Edición Autor Minimal",
+    "categoria": "velas-de-autor",
+    "descripcionCorta": "Velas conceptuales con formas escultóricas y aromas complejos.",
+    "descripcionLarga": "Serie limitada firmada por la fundadora. Combina notas de sándalo, bergamota y lavanda.",
+    "medidas": {
+      "altoCm": 10,
+      "anchoCm": 5
+    },
+    "precioBase": 18,
+    "personalizable": false,
+    "aromasDisponibles": [
+      "Belle Glamour",
+      "Argán"
+    ],
+    "coloresDisponibles": [
+      "Marfil",
+      "Negro carbón"
+    ],
+    "imagenes": [
+      "/images/Candles/Autor/autor1.avif",
+      "/images/Candles/Autor/autor2.avif",
+      "/images/Candles/Autor/autor3.avif",
+      "/images/Candles/Autor/autor4.avif"
+    ],
+    "tags": [
+      "edición limitada"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "unicos-artesanales",
+    "slug": "coleccion-unicos",
+    "nombre": "Colección Únicos Artesanales",
+    "categoria": "disenos-unicos",
+    "descripcionCorta": "Piezas irrepetibles con acabados artesanales y pigmentos marmoleados.",
+    "descripcionLarga": "Cada vela es diferente y se realiza bajo pedido. Perfectas para interiorismo o regalos exclusivos.",
+    "medidas": {
+      "altoCm": 9,
+      "anchoCm": 8
+    },
+    "precioBase": 20,
+    "extras": [
+      {
+        "nombre": "Certificado de edición",
+        "precio": 0
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Belle Glamour",
+      "Violeta",
+      "Argán"
+    ],
+    "coloresDisponibles": [
+      "Terracota",
+      "Granito",
+      "Blanco"
+    ],
+    "imagenes": [
+      "/images/Candles/Unicos/unico1.avif",
+      "/images/Candles/Unicos/unico2.avif",
+      "/images/Candles/Unicos/unico3.avif",
+      "/images/Candles/Unicos/unico4.avif"
+    ],
+    "tags": [
+      "edición limitada"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "waxmelts-combos",
+    "slug": "wax-melts-combos",
+    "nombre": "Wax Melts Personalizados",
+    "categoria": "wax-melts",
+    "descripcionCorta": "Combos personalizados desde $1 con diseños temáticos.",
+    "descripcionLarga": "Elige formas, colores y aromas para tus quemadores. Ideal para recuerdos y kits sensoriales.",
+    "medidas": {
+      "altoCm": 2,
+      "anchoCm": 3
+    },
+    "precioBase": 1,
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Hierba luisa",
+      "Eucalipto",
+      "Belle Glamour",
+      "Vainilla macadamia"
+    ],
+    "coloresDisponibles": [
+      "Blanco",
+      "Petal",
+      "Sage"
+    ],
+    "imagenes": [
+      "/images/Candles/Wax/wax1.avif",
+      "/images/Candles/Wax/wax2.avif"
+    ],
+    "tags": [
+      "personalizable",
+      "mayoristas"
+    ],
+    "estado": "activo"
+  }
+]

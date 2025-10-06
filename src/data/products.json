@@ -954,10 +954,7 @@
       "Perla"
     ],
     "imagenes": [
-      "/images/Candles/Madre/mama1.avif",
-      "/images/Candles/Madre/mama2.avif",
-      "/images/Candles/Madre/mama3.avif",
-      "/images/Candles/Madre/mama4.avif"
+      "/images/Candles/Madre/mama1.avif"
     ],
     "tags": [],
     "estado": "activo"
@@ -992,10 +989,7 @@
       "Perla"
     ],
     "imagenes": [
-      "/images/Candles/Madre/mama1.avif",
-      "/images/Candles/Madre/mama2.avif",
-      "/images/Candles/Madre/mama3.avif",
-      "/images/Candles/Madre/mama4.avif"
+      "/images/Candles/Madre/mama2.avif"
     ],
     "tags": [
       "personalizable"
@@ -1032,10 +1026,7 @@
       "Perla"
     ],
     "imagenes": [
-      "/images/Candles/Madre/mama1.avif",
-      "/images/Candles/Madre/mama2.avif",
-      "/images/Candles/Madre/mama3.avif",
-      "/images/Candles/Madre/mama4.avif"
+      "/images/Candles/Madre/mama3.avif"
     ],
     "tags": [
       "personalizable"
@@ -1072,9 +1063,6 @@
       "Perla"
     ],
     "imagenes": [
-      "/images/Candles/Madre/mama1.avif",
-      "/images/Candles/Madre/mama2.avif",
-      "/images/Candles/Madre/mama3.avif",
       "/images/Candles/Madre/mama4.avif"
     ],
     "tags": [
@@ -1637,10 +1625,7 @@
       "Negro carbón"
     ],
     "imagenes": [
-      "/images/Candles/Autor/autor1.avif",
-      "/images/Candles/Autor/autor2.avif",
-      "/images/Candles/Autor/autor3.avif",
-      "/images/Candles/Autor/autor4.avif"
+      "/images/Candles/Autor/autor1.avif"
     ],
     "tags": [
       "edición limitada"
@@ -1670,10 +1655,7 @@
       "Negro carbón"
     ],
     "imagenes": [
-      "/images/Candles/Autor/autor1.avif",
-      "/images/Candles/Autor/autor2.avif",
-      "/images/Candles/Autor/autor3.avif",
-      "/images/Candles/Autor/autor4.avif"
+      "/images/Candles/Autor/autor2.avif"
     ],
     "tags": [
       "edición limitada"
@@ -1703,10 +1685,7 @@
       "Negro carbón"
     ],
     "imagenes": [
-      "/images/Candles/Autor/autor1.avif",
-      "/images/Candles/Autor/autor2.avif",
-      "/images/Candles/Autor/autor3.avif",
-      "/images/Candles/Autor/autor4.avif"
+      "/images/Candles/Autor/autor3.avif"
     ],
     "tags": [
       "edición limitada"
@@ -1736,9 +1715,6 @@
       "Negro carbón"
     ],
     "imagenes": [
-      "/images/Candles/Autor/autor1.avif",
-      "/images/Candles/Autor/autor2.avif",
-      "/images/Candles/Autor/autor3.avif",
       "/images/Candles/Autor/autor4.avif"
     ],
     "tags": [

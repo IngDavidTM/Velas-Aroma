@@ -2,7 +2,7 @@
   {
     "id": "navidad-arbol-navideno-10x5",
     "slug": "arbol-navideno-10x5",
-    "nombre": "Árbol Navideño 10x5",
+    "nombre": "Pino Brisa Invernal",
     "categoria": "navidad",
     "descripcionCorta": "Escultura aromática inspirada en la temporada festiva.",
     "descripcionLarga": "Elaborado en cera de soya con detalles perlados. Ideal para decorar mesas navideñas o crear sets de regalo.",
@@ -29,9 +29,7 @@
       "Champagne"
     ],
     "imagenes": [
-      "/images/Candles/Navidad/tree1.avif",
-      "/images/Candles/Navidad/tree2.avif",
-      "/images/Candles/Navidad/tree3.avif"
+      "/images/Candles/Navidad/tree2.avif"
     ],
     "tags": [
       "edición navidad"
@@ -41,51 +39,13 @@
   {
     "id": "navidad-arbol-navideno-10x7",
     "slug": "arbol-navideno-10x7",
-    "nombre": "Árbol Navideño 10x7",
+    "nombre": "Pino Noche de Luz",
     "categoria": "navidad",
     "descripcionCorta": "Escultura aromática inspirada en la temporada festiva.",
     "descripcionLarga": "Elaborado en cera de soya con detalles perlados. Ideal para decorar mesas navideñas o crear sets de regalo.",
     "medidas": {
       "altoCm": 10,
       "anchoCm": 7
-    },
-    "precioBase": 3,
-    "extras": [
-      {
-        "nombre": "Base de madera",
-        "precio": 1
-      }
-    ],
-    "personalizable": true,
-    "aromasDisponibles": [
-      "Manzana y canela",
-      "Bosque navideño",
-      "Frutos rojos"
-    ],
-    "coloresDisponibles": [
-      "Verde bosque",
-      "Marfil",
-      "Champagne"
-    ],
-    "imagenes": [
-      "/images/Candles/Navidad/tree1.avif",
-      "/images/Candles/Navidad/tree2.avif"
-    ],
-    "tags": [
-      "edición navidad"
-    ],
-    "estado": "activo"
-  },
-  {
-    "id": "navidad-arbol-navideno-9x5",
-    "slug": "arbol-navideno-9x5",
-    "nombre": "Árbol Navideño 9x5",
-    "categoria": "navidad",
-    "descripcionCorta": "Escultura aromática inspirada en la temporada festiva.",
-    "descripcionLarga": "Elaborado en cera de soya con detalles perlados. Ideal para decorar mesas navideñas o crear sets de regalo.",
-    "medidas": {
-      "altoCm": 9,
-      "anchoCm": 5
     },
     "precioBase": 3,
     "extras": [
@@ -114,9 +74,46 @@
     "estado": "activo"
   },
   {
-    "id": "jardin-cactus-3x3",
+    "id": "navidad-arbol-navideno-9x5",
+    "slug": "arbol-navideno-9x5",
+    "nombre": "Pino Dulce Nieve",
+    "categoria": "navidad",
+    "descripcionCorta": "Escultura aromática inspirada en la temporada festiva.",
+    "descripcionLarga": "Elaborado en cera de soya con detalles perlados. Ideal para decorar mesas navideñas o crear sets de regalo.",
+    "medidas": {
+      "altoCm": 9,
+      "anchoCm": 5
+    },
+    "precioBase": 3,
+    "extras": [
+      {
+        "nombre": "Base de madera",
+        "precio": 1
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Manzana y canela",
+      "Bosque navideño",
+      "Frutos rojos"
+    ],
+    "coloresDisponibles": [
+      "Verde bosque",
+      "Marfil",
+      "Champagne"
+    ],
+    "imagenes": [
+      "/images/Candles/Navidad/tree3.avif"
+    ],
+    "tags": [
+      "edición navidad"
+    ],
+    "estado": "activo"
+  },
+  {
+    "id": "jardin-cactus-3x3-1",
     "slug": "cactus-3x3",
-    "nombre": "Cactus Mini 3x3",
+    "nombre": "Cactus Mini Chispa Acumulado",
     "categoria": "jardin",
     "descripcionCorta": "Mini cactus aromático con fragancias herbales.",
     "descripcionLarga": "Pequeño detalle botánico para escritorios o corners decorativos. Se entrega con detalles pintados a mano.",
@@ -131,7 +128,7 @@
         "precio": 1
       }
     ],
-    "personalizable": false,
+    "personalizable": true,
     "aromasDisponibles": [
       "Hierba luisa",
       "Eucalipto",
@@ -144,8 +141,45 @@
       "Arena"
     ],
     "imagenes": [
-      "/images/Candles/Jardin/planta1.avif",
-      "/images/Candles/Jardin/planta6.avif"
+      "/images/Candles/Jardin/planta2.avif"
+    ],
+    "tags": [
+      "botánico"
+    ],
+    "estado": "activo"
+  },
+    {
+    "id": "jardin-cactus-3x3-2",
+    "slug": "cactus-3x3",
+    "nombre": "Cactus Mini Chispa",
+    "categoria": "jardin",
+    "descripcionCorta": "Mini cactus aromático con fragancias herbales.",
+    "descripcionLarga": "Pequeño detalle botánico para escritorios o corners decorativos. Se entrega con detalles pintados a mano.",
+    "medidas": {
+      "altoCm": 3,
+      "anchoCm": 3
+    },
+    "precioBase": 2,
+    "extras": [
+      {
+        "nombre": "Base de madera",
+        "precio": 1
+      }
+    ],
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Hierba luisa",
+      "Eucalipto",
+      "Menta",
+      "Maracuyá"
+    ],
+    "coloresDisponibles": [
+      "Sage",
+      "Verde oliva",
+      "Arena"
+    ],
+    "imagenes": [
+      "/images/Candles/Jardin/planta1.avif"
     ],
     "tags": [
       "botánico"
@@ -155,7 +189,7 @@
   {
     "id": "jardin-cactus-4x5",
     "slug": "cactus-4x5",
-    "nombre": "Cactus 4x5",
+    "nombre": "Cactus Alto Desierto",
     "categoria": "jardin",
     "descripcionCorta": "Cactus mediano con acabado mate y aroma fresco.",
     "descripcionLarga": "Esculpido a mano para darle textura realista. Aporta notas verdes suaves a cualquier ambiente.",
@@ -170,7 +204,7 @@
         "precio": 1
       }
     ],
-    "personalizable": false,
+    "personalizable": true,
     "aromasDisponibles": [
       "Hierba luisa",
       "Eucalipto",
@@ -183,8 +217,7 @@
       "Arena"
     ],
     "imagenes": [
-      "/images/Candles/Jardin/planta2.avif",
-      "/images/Candles/Jardin/planta5.avif"
+      "/images/Candles/Jardin/planta3.avif"
     ],
     "tags": [
       "botánico"
@@ -194,7 +227,7 @@
   {
     "id": "jardin-shot-cactus",
     "slug": "shot-de-cactus",
-    "nombre": "Shot de Cactus",
+    "nombre": "Shot Verde Tónico",
     "categoria": "jardin",
     "descripcionCorta": "Shot de vidrio con cactus de cera personalizable.",
     "descripcionLarga": "Elige combinación de arenas, colores y essencias para crear recordatorios únicos o detalles corporativos.",
@@ -216,7 +249,7 @@
       "Arena"
     ],
     "imagenes": [
-      "/images/Candles/Jardin/planta3.avif"
+      "/images/Candles/Jardin/planta4.avif"
     ],
     "tags": [
       "personalizable",
@@ -227,7 +260,7 @@
   {
     "id": "jardin-copa-cactus",
     "slug": "copa-de-cactus",
-    "nombre": "Copa de Cactus",
+    "nombre": "Copa Jardín Suculento",
     "categoria": "jardin",
     "descripcionCorta": "Copa alta con mezcla de suculentas aromáticas.",
     "descripcionLarga": "Diseñada para crear puntos focales en mesas o recepciones. Cada copa se arma bajo pedido con colores y aromas a elección.",
@@ -249,7 +282,7 @@
       "Arena"
     ],
     "imagenes": [
-      "/images/Candles/Jardin/planta4.avif"
+      "/images/Candles/Jardin/planta5.avif"
     ],
     "tags": [
       "personalizable",
@@ -275,7 +308,7 @@
         "precio": 1
       }
     ],
-    "personalizable": false,
+    "personalizable": true,
     "aromasDisponibles": [
       "Hierba luisa",
       "Eucalipto",
@@ -288,7 +321,7 @@
       "Arena"
     ],
     "imagenes": [
-      "/images/Candles/Jardin/planta5.avif"
+      "/images/Candles/Jardin/planta6.avif"
     ],
     "tags": [
       "botánico"
@@ -298,7 +331,7 @@
   {
     "id": "flores-flor-peonia-4x8",
     "slug": "flor-peonia-4x8",
-    "nombre": "Flor Peonía 4x8",
+    "nombre": "Flor Peonía",
     "categoria": "flores",
     "descripcionCorta": "Flor artesanal de cera con fragancias botánicas.",
     "descripcionLarga": "Esculpida pétalo a pétalo para lograr texturas realistas. Personaliza tonos y fragancias para complementar tus arreglos.",
@@ -360,7 +393,7 @@
   {
     "id": "flores-flor-girasol-4x8",
     "slug": "flor-girasol-4x8",
-    "nombre": "Flor Girasol 4x8",
+    "nombre": "Flor Girasol",
     "categoria": "flores",
     "descripcionCorta": "Flor artesanal de cera con fragancias botánicas.",
     "descripcionLarga": "Esculpida pétalo a pétalo para lograr texturas realistas. Personaliza tonos y fragancias para complementar tus arreglos.",
@@ -643,7 +676,7 @@
   {
     "id": "flores-oso-flores-8x6",
     "slug": "oso-flores-8x6",
-    "nombre": "Oso de Flores 8x6",
+    "nombre": "Oso de Flores",
     "categoria": "flores",
     "descripcionCorta": "Flor artesanal de cera con fragancias botánicas.",
     "descripcionLarga": "Esculpida pétalo a pétalo para lograr texturas realistas. Personaliza tonos y fragancias para complementar tus arreglos.",
@@ -676,7 +709,7 @@
   {
     "id": "flores-oso-flores-6x5",
     "slug": "oso-flores-6x5",
-    "nombre": "Oso de Flores 6x5",
+    "nombre": "Oso de Flores Corazón",
     "categoria": "flores",
     "descripcionCorta": "Flor artesanal de cera con fragancias botánicas.",
     "descripcionLarga": "Esculpida pétalo a pétalo para lograr texturas realistas. Personaliza tonos y fragancias para complementar tus arreglos.",
@@ -730,7 +763,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/SanValentin/amor1.avif"
+      "/images/Candles/SanValentin/amor2.avif"
     ],
     "tags": [
       "personalizable"
@@ -761,7 +794,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/SanValentin/amor2.avif"
+      "/images/Candles/SanValentin/amor3.avif"
     ],
     "tags": [
       "personalizable",
@@ -793,7 +826,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/SanValentin/amor3.avif"
+      "/images/Candles/SanValentin/amor4.avif"
     ],
     "tags": [
       "combo",
@@ -825,7 +858,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/SanValentin/amor4.avif"
+      "/images/Candles/SanValentin/amor5.avif"
     ],
     "tags": [
       "personalizable",
@@ -857,7 +890,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/SanValentin/amor5.avif"
+      "/images/Candles/SanValentin/amor6.avif"
     ],
     "tags": [
       "personalizable",
@@ -889,7 +922,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/SanValentin/amor6.avif"
+      "/images/Candles/SanValentin/amor1.avif"
     ],
     "tags": [
       "personalizable",
@@ -1052,7 +1085,7 @@
   {
     "id": "bebidas-champagne-20x6",
     "slug": "champagne-20x6",
-    "nombre": "Champagne 20x6",
+    "nombre": "Champagne",
     "categoria": "bebidas-postres",
     "descripcionCorta": "Vela inspirada en bebidas y postres artesanales.",
     "descripcionLarga": "Vertida en contenedores reutilizables. Puedes elegir aroma gourmand, toppings y etiquetas para eventos o regalos corporativos.",
@@ -1092,7 +1125,7 @@
   {
     "id": "bebidas-vino-20x6",
     "slug": "vino-20x6",
-    "nombre": "Vino 20x6",
+    "nombre": "Vino",
     "categoria": "bebidas-postres",
     "descripcionCorta": "Vela inspirada en bebidas y postres artesanales.",
     "descripcionLarga": "Vertida en contenedores reutilizables. Puedes elegir aroma gourmand, toppings y etiquetas para eventos o regalos corporativos.",
@@ -1132,7 +1165,7 @@
   {
     "id": "bebidas-iced-coffee-12x6",
     "slug": "iced-coffee-12x6",
-    "nombre": "Iced Coffee 12x6",
+    "nombre": "Iced Coffee",
     "categoria": "bebidas-postres",
     "descripcionCorta": "Vela inspirada en bebidas y postres artesanales.",
     "descripcionLarga": "Vertida en contenedores reutilizables. Puedes elegir aroma gourmand, toppings y etiquetas para eventos o regalos corporativos.",
@@ -1155,7 +1188,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Postres/postre4.avif"
+      "/images/Candles/Postres/postre3.avif"
     ],
     "tags": [
       "personalizable"
@@ -1165,7 +1198,7 @@
   {
     "id": "bebidas-coffee-6x6",
     "slug": "coffee-6x6",
-    "nombre": "Coffee 6x6",
+    "nombre": "Coffee",
     "categoria": "bebidas-postres",
     "descripcionCorta": "Vela inspirada en bebidas y postres artesanales.",
     "descripcionLarga": "Vertida en contenedores reutilizables. Puedes elegir aroma gourmand, toppings y etiquetas para eventos o regalos corporativos.",
@@ -1188,7 +1221,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Postres/postre5.avif"
+      "/images/Candles/Postres/postre4.avif"
     ],
     "tags": [
       "personalizable"
@@ -1198,7 +1231,7 @@
   {
     "id": "bebidas-copa-postre-12x6",
     "slug": "copa-postre-12x6",
-    "nombre": "Copa de Postre 12x6",
+    "nombre": "Copa de Postre",
     "categoria": "bebidas-postres",
     "descripcionCorta": "Vela inspirada en bebidas y postres artesanales.",
     "descripcionLarga": "Vertida en contenedores reutilizables. Puedes elegir aroma gourmand, toppings y etiquetas para eventos o regalos corporativos.",
@@ -1221,7 +1254,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Postres/postre6.avif"
+      "/images/Candles/Postres/postre5.avif"
     ],
     "tags": [
       "personalizable"
@@ -1231,7 +1264,7 @@
   {
     "id": "bebidas-copa-helado-8x6",
     "slug": "copa-helado-8x6",
-    "nombre": "Copa de Helado 8x6",
+    "nombre": "Copa de Helado",
     "categoria": "bebidas-postres",
     "descripcionCorta": "Vela inspirada en bebidas y postres artesanales.",
     "descripcionLarga": "Vertida en contenedores reutilizables. Puedes elegir aroma gourmand, toppings y etiquetas para eventos o regalos corporativos.",
@@ -1254,7 +1287,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Postres/postre3.avif"
+      "/images/Candles/Postres/postre6.avif"
     ],
     "tags": [
       "personalizable"
@@ -1285,12 +1318,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico1.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1322,12 +1350,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico2.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1359,12 +1382,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico3.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1396,12 +1414,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico4.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1433,12 +1446,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico5.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1470,12 +1478,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico6.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1507,12 +1510,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico7.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1544,12 +1542,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico8.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1581,12 +1574,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico9.avif"
     ],
     "tags": [
       "edición limitada",
@@ -1618,12 +1606,7 @@
       "Marfil"
     ],
     "imagenes": [
-      "/images/Candles/Unicos/unico1.avif",
-      "/images/Candles/Unicos/unico2.avif",
-      "/images/Candles/Unicos/unico3.avif",
-      "/images/Candles/Unicos/unico4.avif",
-      "/images/Candles/Unicos/unico5.avif",
-      "/images/Candles/Unicos/Unico10.avif"
+      "/images/Candles/Unicos/unico10.avif"
     ],
     "tags": [
       "edición limitada",

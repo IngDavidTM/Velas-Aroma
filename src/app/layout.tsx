@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import ThemeToggle from "@/components/theme-toggle";
-import { ThemeProvider } from "@/components/theme-provider";
+import Providers from "@/components/providers";
+import CartNavLink from "@/components/cart-nav-link";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -46,7 +47,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-brand-cream text-brand-charcoal`}
       >
-        <ThemeProvider>
+        <Providers>
           <div className="min-h-screen">
             <header className="border-b border-brand-sand/70 bg-brand-cream/95 backdrop-blur">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
@@ -69,11 +70,20 @@ export default function RootLayout({
               </Link>
               <div className="flex items-center gap-4">
                 <nav className="hidden items-center gap-6 text-xs font-medium uppercase tracking-[0.25em] text-brand-brown/70 sm:flex">
-                  {navItems.map((item) => (
-                    <Link key={item.href} href={item.href} className="transition hover:text-brand-brown">
-                      {item.label}
-                    </Link>
-                  ))}
+                  {navItems.map((item) =>
+                    item.href === "/carrito" ? (
+                      <CartNavLink
+                        key={item.href}
+                        href={item.href}
+                        label={item.label}
+                        variant="desktop"
+                      />
+                    ) : (
+                      <Link key={item.href} href={item.href} className="transition hover:text-brand-brown">
+                        {item.label}
+                      </Link>
+                    ),
+                  )}
                 </nav>
                 <div className="hidden sm:inline-flex">
                   <ThemeToggle />
@@ -82,11 +92,20 @@ export default function RootLayout({
             </div>
             <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 border-t border-brand-sand/70 px-4 py-3 sm:hidden">
               <nav className="flex flex-1 items-center gap-4 overflow-x-auto text-[0.75rem] font-medium uppercase tracking-[0.25em] text-brand-brown/70">
-                {navItems.map((item) => (
-                  <Link key={item.href} href={item.href} className="transition hover:text-brand-brown">
-                    {item.label}
-                  </Link>
-                ))}
+                {navItems.map((item) =>
+                  item.href === "/carrito" ? (
+                    <CartNavLink
+                      key={item.href}
+                      href={item.href}
+                      label={item.label}
+                      variant="mobile"
+                    />
+                  ) : (
+                    <Link key={item.href} href={item.href} className="transition hover:text-brand-brown">
+                      {item.label}
+                    </Link>
+                  ),
+                )}
               </nav>
               <ThemeToggle className="flex-shrink-0 sm:hidden" compact />
             </div>
@@ -103,7 +122,7 @@ export default function RootLayout({
               </div>
             </footer>
           </div>
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   );

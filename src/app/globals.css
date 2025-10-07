@@ -16,6 +16,7 @@
     var(--brand-brown) 35%,
     var(--brand-cream) 65%
   );
+  --container-8xl: 88rem;
 }
 
 @theme inline {
@@ -101,4 +102,8 @@ body {
   body {
     transition: none;
   }
+}
+
+.max-w-8xl {
+  max-width: var(--container-8xl);
 }

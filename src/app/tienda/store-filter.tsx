@@ -6,7 +6,7 @@ import type { Aroma } from "@/data/site";
 interface FilterSidebarProps {
   collections: Collection[];
   aromaOptions: readonly Aroma[];
-  colorOptions: string[];
+  colorOptions: Array<{ label: string; hex: string }>;
   sizeOptions: string[];
   extraOptions: Array<{ label: string; key: string }>;
   selectedCollections: string[];
@@ -116,23 +116,21 @@ export default function FilterSidebar({
         <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Colores</p>
         <div className="mt-3 flex flex-wrap gap-3">
           {colorOptions.map((color) => {
-            const isActive = selectedColors.includes(color);
+            const isActive = selectedColors.includes(color.label);
             return (
               <button
-                key={color}
+                key={color.label}
                 type="button"
-                onClick={() => onToggleColor(color)}
-                className={`flex items-center gap-2 rounded-full border px-3 py-1 text-xs uppercase tracking-[0.2em] transition ${
-                  isActive
-                    ? "border-brand-brown bg-brand-brown text-brand-cream"
-                    : "border-brand-brown/40 text-brand-brown/80 hover:border-brand-brown"
+                onClick={() => onToggleColor(color.label)}
+                className={`flex items-center justify-center rounded-full border px-3 py-2 text-xs font-semibold uppercase tracking-[0.2em] transition ${
+                  isActive ? "ring-2 ring-brand-brown/70" : ""
                 }`}
+                style={{
+                  backgroundColor: color.hex,
+                  color: color.label === "Negro carbón" ? "#f5ede4" : "#2f2723",
+                }}
               >
-                <span
-                  className="inline-block h-4 w-4 rounded-full border border-brand-brown/40"
-                  style={{ backgroundColor: color === 'Negro carbón' ? '#1f1a18' : undefined }}
-                />
-                {color}
+                <span className="min-w-[3.5rem] text-center">{color.label}</span>
               </button>
             );
           })}

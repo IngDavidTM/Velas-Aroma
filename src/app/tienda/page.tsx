@@ -11,14 +11,14 @@ import { collections } from "@/data/collections";
 type SortOption = "featured" | "price-asc" | "price-desc" | "new";
 
 const colorOptions = [
-  "Marfil",
-  "Champagne",
-  "Terracota",
-  "Sage",
-  "Carmín",
-  "Verde bosque",
-  "Perla",
-  "Negro carbón",
+  { label: "Marfil", hex: "#f8f1e7" },
+  { label: "Champagne", hex: "#dec7a3" },
+  { label: "Terracota", hex: "#b36a4c" },
+  { label: "Sage", hex: "#c7d2c3" },
+  { label: "Carmín", hex: "#b33951" },
+  { label: "Verde bosque", hex: "#2f5b3d" },
+  { label: "Perla", hex: "#ede7e1" },
+  { label: "Negro carbón", hex: "#1f1a18" },
 ];
 
 const sizeBuckets = [

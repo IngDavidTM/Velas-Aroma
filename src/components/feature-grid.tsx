@@ -1,11 +1,12 @@
 import BorderPanel from "@/components/border-panel";
 import PageSection from "@/components/page-section";
 import SectionIntro from "@/components/section-intro";
+import type { ReactNode } from "react";
 
 interface FeatureGridProps {
   eyebrow?: string;
   title: string;
-  features: Array<{ title: string; description: string }>;
+  features: Array<{ title: string; description: string; icon?: ReactNode }>;
 }
 
 export default function FeatureGrid({ eyebrow, title, features }: FeatureGridProps) {
@@ -15,8 +16,17 @@ export default function FeatureGrid({ eyebrow, title, features }: FeatureGridPro
       <div className="grid gap-6 md:grid-cols-2">
         {features.map((feature) => (
           <BorderPanel key={feature.title}>
-            <h3 className="text-lg font-semibold text-brand-brown">{feature.title}</h3>
-            <p className="mt-3 text-sm text-brand-charcoal/85">{feature.description}</p>
+            <div className="flex items-start gap-4">
+              {feature.icon ? (
+                <span className="mt-1 inline-flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-brand-sand/50 text-brand-brown">
+                  {feature.icon}
+                </span>
+              ) : null}
+              <div>
+                <h3 className="text-lg font-semibold text-brand-brown">{feature.title}</h3>
+                <p className="mt-3 text-sm text-brand-charcoal/85">{feature.description}</p>
+              </div>
+            </div>
           </BorderPanel>
         ))}
       </div>

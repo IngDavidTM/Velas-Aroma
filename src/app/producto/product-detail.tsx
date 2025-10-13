@@ -26,7 +26,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   const [quantity, setQuantity] = useState(1);
   const [feedback, setFeedback] = useState<string | null>(null);
 
-  const availableExtras = product.extras ?? [];
+  const availableExtras = useMemo(() => product.extras ?? [], [product.extras]);
 
   const selectedExtraObjects: ProductExtra[] = useMemo(() => {
     if (!availableExtras.length) return [];

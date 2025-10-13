@@ -1,6 +1,5 @@
 import Link from "next/link";
 import SectionIntro from "@/components/section-intro";
-import PageSection from "@/components/page-section";
 import BorderPanel from "@/components/border-panel";
 import { contactInfo } from "@/data/site";
 

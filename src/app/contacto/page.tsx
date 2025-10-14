@@ -85,7 +85,7 @@ export default function ContactPage() {
           <div className="relative h-56 w-full overflow-hidden border border-brand-sand/70">
             <iframe
               title="Mapa Velas & Aroma"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.005043865235!2d-78.432!3d-0.205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5a5f8d8f0d94b%3A0x0!2z5YyX5Lqs5biC!5e0!3m2!1ses-419!2sec!4v1700000000000"
+              src="https://www.google.com/maps?q=-0.212382,-78.407931&z=16&hl=es-419&output=embed"
               width="100%"
               height="100%"
               loading="lazy"

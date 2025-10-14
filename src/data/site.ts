@@ -5,7 +5,7 @@ export const contactInfo = {
   instagramUrl: "https://instagram.com/velasyaroma.ec",
   whatsappUrl: "https://wa.me/593987832616",
   address: "Pasaje Rumiñahui y Francisco de Orellana, Tumbaco",
-  schedule: "Lun-Vie 09:00-18:00 · Sáb 10:00-14:00",
+  schedule: "Sáb 10:00-14:00",
 };
 
 export const aromaOptions = [

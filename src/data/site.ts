@@ -5,7 +5,7 @@ export const contactInfo = {
   instagramUrl: "https://instagram.com/velasyaroma.ec",
   whatsappUrl: "https://wa.me/593987832616",
   address: "Pasaje Rumiñahui y Francisco de Orellana, Tumbaco",
-  schedule: "Sáb 10:00-14:00",
+  schedule: "Lun a vie 09:00-18:00 · Sáb 10:00-14:00",
 };
 
 export const aromaOptions = [
@@ -41,16 +41,16 @@ export const shippingFaq = [
   {
     question: "¿Realizan pedidos personalizados?",
     answer:
-      "Sí, puedes escoger aroma, color y empaques. Escríbenos con al menos 10 días de anticipación para coordinar producción.",
+      "Sí. Puedes elegir el aroma y el color de tus velas. Escríbenos con al menos 7 días de anticipación para coordinar la producción.",
   },
   {
     question: "¿Puedo armar combos?",
     answer:
-      "Ofrecemos combos por categoría y combos personalizados. Contáctanos para recibir propuestas según presupuesto.",
+      "Ofrecemos combos por categoría y también combos personalizados. Contáctanos para recibir opciones adaptadas a tu presupuesto.",
   },
   {
     question: "¿Qué pasa en fechas especiales?",
     answer:
-      "En San Valentín, Día de la Madre y temporada navideña abrimos cupos limitados; reserva con anticipación para asegurar disponibilidad.",
+      "En San Valentín, Día de la Madre y Navidad trabajamos con cupos limitados. Te recomendamos reservar con anticipación para asegurar disponibilidad.",
   },
 ];

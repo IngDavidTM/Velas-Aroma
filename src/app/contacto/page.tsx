@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SectionIntro from "@/components/section-intro";
 import BorderPanel from "@/components/border-panel";
-import { contactInfo } from "@/data/site";
+import { buildWhatsappLink, contactInfo } from "@/data/site";
 
 export default function ContactPage() {
   return (
@@ -65,7 +65,12 @@ export default function ContactPage() {
         <div className="space-y-6">
           <BorderPanel className="space-y-3">
             <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Contacto directo</p>
-            <Link href={contactInfo.whatsappUrl} target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center border border-brand-brown bg-brand-brown px-4 py-2 text-sm font-medium uppercase tracking-[0.2em] text-brand-cream transition hover:bg-brand-charcoal">
+            <Link
+              href={buildWhatsappLink()}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex w-full items-center justify-center border border-brand-brown bg-brand-brown px-4 py-2 text-sm font-medium uppercase tracking-[0.2em] text-brand-cream transition hover:bg-brand-charcoal"
+            >
               WhatsApp
             </Link>
             <Link href={contactInfo.instagramUrl} target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center border border-brand-brown/70 px-4 py-2 text-sm font-medium uppercase tracking-[0.2em] text-brand-brown transition hover:border-brand-brown hover:text-brand-charcoal">

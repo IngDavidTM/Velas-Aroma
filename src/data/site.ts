@@ -8,6 +8,12 @@ export const contactInfo = {
   schedule: "Lun a vie 09:00-18:00 · Sáb 10:00-14:00",
 };
 
+export const defaultWhatsappMessage =
+  "Hola, quisiera más información sobre Velas & Aroma.";
+
+export const buildWhatsappLink = (message: string = defaultWhatsappMessage) =>
+  `${contactInfo.whatsappUrl}?text=${encodeURIComponent(message)}`;
+
 export const aromaOptions = [
   "Chocolate",
   "Champagne",

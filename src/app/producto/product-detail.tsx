@@ -7,7 +7,7 @@ import SectionIntro from "@/components/section-intro";
 import BorderPanel from "@/components/border-panel";
 import type { Product, ProductExtra } from "@/data/products";
 import { useCart } from "@/components/cart-provider";
-import { contactInfo } from "@/data/site";
+import { buildWhatsappLink, contactInfo } from "@/data/site";
 
 type ProductDetailProps = {
   product: Product;
@@ -34,6 +34,10 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   }, [availableExtras, selectedExtras]);
 
   const extrasTotal = selectedExtraObjects.reduce((sum, extra) => sum + extra.precio, 0);
+
+  const whatsappLink = buildWhatsappLink(
+    `Hola, quisiera más información sobre la vela ${product.nombre}.`,
+  );
 
   const handleAddToCart = () => {
     addItem({
@@ -259,7 +263,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           <p className="font-semibold uppercase tracking-[0.2em] text-brand-brown">Necesitas ayuda</p>
           <p className="mt-2">
             Escríbenos a <a href={`mailto:${contactInfo.email}`} className="underline">{contactInfo.email}</a> o envía un mensaje directo a
-            <a href={contactInfo.whatsappUrl} target="_blank" rel="noreferrer" className="ml-1 underline">
+            <a href={whatsappLink} target="_blank" rel="noreferrer" className="ml-1 underline">
               WhatsApp
             </a> para asistencia personalizada.
           </p>

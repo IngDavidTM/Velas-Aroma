@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import CartNavLink from "@/components/cart-nav-link";
 import ThemeToggle from "@/components/theme-toggle";
 
@@ -16,6 +17,11 @@ type HeaderNavigationProps = {
 
 export default function HeaderNavigation({ navItems }: HeaderNavigationProps) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   return (
     <div className="flex items-center gap-4">
@@ -44,11 +50,17 @@ export default function HeaderNavigation({ navItems }: HeaderNavigationProps) {
       </button>
 
       {open ? (
-        <div className="absolute left-0 top-[64px] z-30 w-full border-t border-brand-sand/70 bg-brand-cream/98 px-4 py-4 shadow-lg lg:hidden">
+        <div className="fixed left-0 right-0 top-[72px] z-50 max-h-[calc(100vh-72px)] overflow-y-auto border-t border-brand-sand/70 bg-brand-cream/98 px-6 py-6 shadow-2xl lg:hidden">
           <nav className="flex flex-col gap-3 text-sm font-medium uppercase tracking-[0.2em] text-brand-brown/80">
             {navItems.map((item) =>
               item.href === "/carrito" ? (
-                <CartNavLink key={item.href} href={item.href} label={item.label} variant="mobile" />
+                <CartNavLink
+                  key={item.href}
+                  href={item.href}
+                  label={item.label}
+                  variant="mobile"
+                  onClick={() => setOpen(false)}
+                />
               ) : (
                 <Link
                   key={item.href}
@@ -61,7 +73,7 @@ export default function HeaderNavigation({ navItems }: HeaderNavigationProps) {
               ),
             )}
           </nav>
-          <div className="mt-4">
+          <div className="mt-6">
             <ThemeToggle className="w-full justify-center" compact />
           </div>
         </div>

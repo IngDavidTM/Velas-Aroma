@@ -7,9 +7,10 @@ type CartNavLinkProps = {
   href: string;
   label: string;
   variant: "desktop" | "mobile";
+  onClick?: () => void;
 };
 
-export default function CartNavLink({ href, label, variant }: CartNavLinkProps) {
+export default function CartNavLink({ href, label, variant, onClick }: CartNavLinkProps) {
   const { items } = useCart();
   const count = items.reduce((acc, item) => acc + item.quantity, 0);
 
@@ -19,7 +20,7 @@ export default function CartNavLink({ href, label, variant }: CartNavLinkProps) 
       : "relative inline-flex items-center gap-2 whitespace-nowrap transition hover:text-brand-brown";
 
   return (
-    <Link href={href} className={baseClass}>
+    <Link href={href} onClick={onClick} className={baseClass}>
       <span>{label}</span>
       {count > 0 ? (
         <span className="inline-flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-brand-brown px-1 text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-brand-cream">

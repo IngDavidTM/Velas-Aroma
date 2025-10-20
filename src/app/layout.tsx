@@ -48,7 +48,7 @@ export default function RootLayout({
       >
         <Providers>
           <div className="min-h-screen">
-            <header className="relative border-b border-brand-sand/70 bg-brand-cream/95 backdrop-blur">
+            <header className="relative z-50 border-b border-brand-sand/70 bg-brand-cream/95 backdrop-blur">
             <div className="mx-auto flex max-w-8xl items-center justify-between px-4 py-4 sm:px-6">
               <Link
                 href="/"

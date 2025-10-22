@@ -6,7 +6,7 @@ import type { Aroma } from "@/data/site";
 interface FilterSidebarProps {
   collections: Collection[];
   aromaOptions: readonly Aroma[];
-  colorOptions: Array<{ label: string; hex: string }>;
+  colorOptions: Array<{ label: string; hex: string; textColor?: string }>;
   sizeOptions: string[];
   extraOptions: Array<{ label: string; key: string }>;
   selectedCollections: string[];
@@ -127,7 +127,7 @@ export default function FilterSidebar({
                 }`}
                 style={{
                   backgroundColor: color.hex,
-                  color: color.label === "Negro carbón" ? "#f5ede4" : "#2f2723",
+                  color: color.textColor ?? "#2f2723",
                 }}
               >
                 <span className="min-w-[3.5rem] text-center">{color.label}</span>

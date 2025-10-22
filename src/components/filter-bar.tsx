@@ -2,12 +2,16 @@ import { aromaOptions } from "@/data/site";
 import { collections } from "@/data/collections";
 
 const colorSwatches = [
-  { label: "Marfil", hex: "#f8f1e7" },
-  { label: "Champagne", hex: "#dec7a3" },
-  { label: "Terracota", hex: "#b36a4c" },
-  { label: "Sage", hex: "#c7d2c3" },
-  { label: "Carmín", hex: "#b33951" },
-  { label: "Negro carbón", hex: "#1f1a18" },
+  { label: "Negro", hex: "#1f1a18" },
+  { label: "Blanco", hex: "#ffffff" },
+  { label: "Rojo", hex: "#ef4444" },
+  { label: "Azul", hex: "#3b82f6" },
+  { label: "Amarillo", hex: "#facc15" },
+  { label: "Rosado", hex: "#f472b6" },
+  { label: "Morado", hex: "#a855f7" },
+  { label: "Verde", hex: "#22c55e" },
+  { label: "Naranja", hex: "#fb923c" },
+  { label: "Marrón", hex: "#8c5a3c" },
 ];
 
 const sizeOptions = [

@@ -24,9 +24,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Verde bosque",
-      "Marfil",
-      "Champagne"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Navidad/tree2.avif"
@@ -61,9 +68,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Verde bosque",
-      "Marfil",
-      "Champagne"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Navidad/tree1.avif"
@@ -98,9 +112,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Verde bosque",
-      "Marfil",
-      "Champagne"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Navidad/tree3.avif"
@@ -136,9 +157,16 @@
       "Maracuyá"
     ],
     "coloresDisponibles": [
-      "Sage",
-      "Verde oliva",
-      "Arena"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Jardin/planta2.avif"
@@ -174,9 +202,16 @@
       "Maracuyá"
     ],
     "coloresDisponibles": [
-      "Sage",
-      "Verde oliva",
-      "Arena"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Jardin/planta1.avif"
@@ -212,9 +247,16 @@
       "Maracuyá"
     ],
     "coloresDisponibles": [
-      "Sage",
-      "Verde oliva",
-      "Arena"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Jardin/planta3.avif"
@@ -244,9 +286,16 @@
       "Maracuyá"
     ],
     "coloresDisponibles": [
-      "Sage",
-      "Verde oliva",
-      "Arena"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Jardin/planta4.avif"
@@ -277,9 +326,16 @@
       "Maracuyá"
     ],
     "coloresDisponibles": [
-      "Sage",
-      "Verde oliva",
-      "Arena"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Jardin/planta5.avif"
@@ -316,9 +372,16 @@
       "Maracuyá"
     ],
     "coloresDisponibles": [
-      "Sage",
-      "Verde oliva",
-      "Arena"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Jardin/planta6.avif"
@@ -348,10 +411,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor1.avif"
@@ -379,10 +448,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor2.avif"
@@ -410,10 +485,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor3.avif"
@@ -441,10 +522,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor4.avif"
@@ -472,10 +559,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor5.avif"
@@ -503,10 +596,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor6.avif"
@@ -534,10 +633,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor7.avif"
@@ -567,10 +672,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor8.avif"
@@ -600,10 +711,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor9.avif"
@@ -631,10 +748,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor10.avif"
@@ -662,10 +785,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor11.avif"
@@ -693,10 +822,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor12.avif"
@@ -726,10 +861,16 @@
       "Manzanilla"
     ],
     "coloresDisponibles": [
-      "Rosa cuarzo",
-      "Lavanda",
-      "Champagne",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Flores/flor13.avif"
@@ -758,9 +899,16 @@
       "Vainilla macadamia"
     ],
     "coloresDisponibles": [
-      "Rosa blush",
-      "Rojo carmín",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/SanValentin/amor2.avif"
@@ -789,9 +937,16 @@
       "Vainilla macadamia"
     ],
     "coloresDisponibles": [
-      "Rosa blush",
-      "Rojo carmín",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/SanValentin/amor3.avif"
@@ -821,9 +976,16 @@
       "Vainilla macadamia"
     ],
     "coloresDisponibles": [
-      "Rosa blush",
-      "Rojo carmín",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/SanValentin/amor4.avif"
@@ -853,9 +1015,16 @@
       "Vainilla macadamia"
     ],
     "coloresDisponibles": [
-      "Rosa blush",
-      "Rojo carmín",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/SanValentin/amor5.avif"
@@ -885,9 +1054,16 @@
       "Vainilla macadamia"
     ],
     "coloresDisponibles": [
-      "Rosa blush",
-      "Rojo carmín",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/SanValentin/amor6.avif"
@@ -917,9 +1093,16 @@
       "Vainilla macadamia"
     ],
     "coloresDisponibles": [
-      "Rosa blush",
-      "Rojo carmín",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/SanValentin/amor1.avif"
@@ -949,9 +1132,16 @@
       "Belle Glamour"
     ],
     "coloresDisponibles": [
-      "Blush",
-      "Champagne",
-      "Perla"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Madre/mama1.avif"
@@ -984,9 +1174,16 @@
       "Belle Glamour"
     ],
     "coloresDisponibles": [
-      "Blush",
-      "Champagne",
-      "Perla"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Madre/mama2.avif"
@@ -1021,9 +1218,16 @@
       "Belle Glamour"
     ],
     "coloresDisponibles": [
-      "Blush",
-      "Champagne",
-      "Perla"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Madre/mama3.avif"
@@ -1058,9 +1262,16 @@
       "Belle Glamour"
     ],
     "coloresDisponibles": [
-      "Blush",
-      "Champagne",
-      "Perla"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Madre/mama4.avif"
@@ -1096,10 +1307,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Champagne",
-      "Caramelo",
-      "Café",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Postres/postre1.avif",
@@ -1136,10 +1353,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Champagne",
-      "Caramelo",
-      "Café",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Postres/postre2.avif",
@@ -1170,10 +1393,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Champagne",
-      "Caramelo",
-      "Café",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Postres/postre3.avif"
@@ -1203,10 +1432,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Champagne",
-      "Caramelo",
-      "Café",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Postres/postre4.avif"
@@ -1236,10 +1471,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Champagne",
-      "Caramelo",
-      "Café",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Postres/postre5.avif"
@@ -1269,10 +1510,16 @@
       "Frutos rojos"
     ],
     "coloresDisponibles": [
-      "Champagne",
-      "Caramelo",
-      "Café",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Postres/postre6.avif"
@@ -1301,9 +1548,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico1.avif"
@@ -1333,9 +1587,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico2.avif"
@@ -1365,9 +1626,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico3.avif"
@@ -1397,9 +1665,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico4.avif"
@@ -1429,9 +1704,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico5.avif"
@@ -1461,9 +1743,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico6.avif"
@@ -1493,9 +1782,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico7.avif"
@@ -1525,9 +1821,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico8.avif"
@@ -1557,9 +1860,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico9.avif"
@@ -1589,9 +1899,16 @@
       "Violeta"
     ],
     "coloresDisponibles": [
-      "Terracota",
-      "Granito",
-      "Marfil"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Unicos/unico10.avif"
@@ -1621,8 +1938,16 @@
       "Eucalipto"
     ],
     "coloresDisponibles": [
-      "Marfil",
-      "Negro carbón"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Autor/autor1.avif"
@@ -1651,8 +1976,16 @@
       "Eucalipto"
     ],
     "coloresDisponibles": [
-      "Marfil",
-      "Negro carbón"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Autor/autor2.avif"
@@ -1681,8 +2014,16 @@
       "Eucalipto"
     ],
     "coloresDisponibles": [
-      "Marfil",
-      "Negro carbón"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Autor/autor3.avif"
@@ -1711,8 +2052,16 @@
       "Eucalipto"
     ],
     "coloresDisponibles": [
-      "Marfil",
-      "Negro carbón"
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Autor/autor4.avif"
@@ -1742,9 +2091,16 @@
       "Vainilla macadamia"
     ],
     "coloresDisponibles": [
+      "Negro",
       "Blanco",
-      "Petal",
-      "Sage"
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
     ],
     "imagenes": [
       "/images/Candles/Wax/wax1.avif",

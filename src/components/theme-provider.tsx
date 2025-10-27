@@ -1,6 +1,6 @@
 "use client";
 
-import {
+import React, {
   createContext,
   useCallback,
   useContext,
@@ -8,6 +8,7 @@ import {
   useMemo,
   useState,
 } from "react";
+import type { ReactNode } from "react";
 
 type Theme = "light" | "dark";
 
@@ -20,7 +21,7 @@ const STORAGE_KEY = "vela-theme";
 
 const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
+export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");
 
   const applyThemeClass = useCallback((value: Theme) => {

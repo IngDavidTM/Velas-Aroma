@@ -7,8 +7,11 @@ import SectionIntro from "@/components/section-intro";
 import { products } from "@/data/products";
 import { aromaOptions } from "@/data/site";
 import { collections } from "@/data/collections";
-
-type SortOption = "featured" | "price-asc" | "price-desc" | "new";
+import {
+  filterProducts,
+  sizeBuckets,
+  type SortOption,
+} from "@/app/tienda/filter-utils";
 
 const colorOptions = [
   { label: "Negro", hex: "#1f1a18", textColor: "#f5ede4" },
@@ -21,13 +24,6 @@ const colorOptions = [
   { label: "Verde", hex: "#22c55e" },
   { label: "Naranja", hex: "#fb923c" },
   { label: "Marrón", hex: "#8c5a3c", textColor: "#f5ede4" },
-];
-
-const sizeBuckets = [
-  { label: "Mini (2-4 cm)", min: 0, max: 4 },
-  { label: "Pequeña (5-7 cm)", min: 4.1, max: 7 },
-  { label: "Mediana (8-10 cm)", min: 7.1, max: 10 },
-  { label: "Grande (11-25 cm)", min: 10.1, max: 25 },
 ];
 
 const extraOptions = [
@@ -54,85 +50,29 @@ export default function StorePage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [sort, setSort] = useState<SortOption>("featured");
 
-  const filteredProducts = useMemo(() => {
-    return products
-      .filter((product) => {
-        if (selectedCollections.length && !selectedCollections.includes(product.categoria)) {
-          return false;
-        }
-
-        if (selectedAromas.length) {
-          const hasAroma = product.aromasDisponibles.some((aroma) =>
-            selectedAromas.includes(aroma),
-          );
-          if (!hasAroma) return false;
-        }
-
-        if (selectedColors.length) {
-          const hasColor = product.coloresDisponibles.some((color) =>
-            selectedColors.includes(color),
-          );
-          if (!hasColor) return false;
-        }
-
-        if (selectedExtras.length) {
-          const extrasLabels = product.extras?.map((extra) => extra.nombre) ?? [];
-          const matchesExtra = selectedExtras.every((extra) => extrasLabels.includes(extra));
-          if (!matchesExtra) return false;
-        }
-
-        if (personalizableOnly && !product.personalizable) {
-          return false;
-        }
-
-        if (selectedSize) {
-          const bucket = sizeBuckets.find((size) => size.label === selectedSize);
-          if (bucket) {
-            const withinHeight =
-              product.medidas.altoCm >= bucket.min && product.medidas.altoCm <= bucket.max;
-            const withinWidth =
-              product.medidas.anchoCm >= bucket.min && product.medidas.anchoCm <= bucket.max;
-            if (!withinHeight && !withinWidth) {
-              return false;
-            }
-          }
-        }
-
-        if (searchTerm.trim()) {
-          const term = searchTerm.toLowerCase();
-          const matches =
-            product.nombre.toLowerCase().includes(term) ||
-            product.descripcionCorta.toLowerCase().includes(term) ||
-            product.descripcionLarga.toLowerCase().includes(term) ||
-            product.tags?.some((tag) => tag.toLowerCase().includes(term));
-          if (!matches) return false;
-        }
-
-        return true;
-      })
-      .sort((a, b) => {
-        switch (sort) {
-          case "price-asc":
-            return a.precioBase - b.precioBase;
-          case "price-desc":
-            return b.precioBase - a.precioBase;
-          case "new":
-            return a.nombre.localeCompare(b.nombre);
-          case "featured":
-          default:
-            return (b.tags?.includes("top ventas") ? 1 : 0) - (a.tags?.includes("top ventas") ? 1 : 0);
-        }
-      });
-  }, [
-    selectedCollections,
-    selectedAromas,
-    selectedColors,
-    selectedExtras,
-    personalizableOnly,
-    selectedSize,
-    searchTerm,
-    sort,
-  ]);
+  const filteredProducts = useMemo(
+    () =>
+      filterProducts(products, {
+        selectedCollections,
+        selectedAromas,
+        selectedColors,
+        selectedExtras,
+        personalizableOnly,
+        selectedSize,
+        searchTerm,
+        sort,
+      }),
+    [
+      selectedCollections,
+      selectedAromas,
+      selectedColors,
+      selectedExtras,
+      personalizableOnly,
+      selectedSize,
+      searchTerm,
+      sort,
+    ],
+  );
 
   return (
     <div className="px-4 py-14 sm:px-6 md:px-10">

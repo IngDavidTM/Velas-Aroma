@@ -99,9 +99,20 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  body {
-    transition: none;
+body {
+  transition: none;
   }
+}
+
+select,
+option {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+select:focus-visible {
+  outline: 2px solid var(--brand-brown);
+  outline-offset: 2px;
 }
 
 .max-w-8xl {

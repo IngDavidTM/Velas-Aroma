@@ -881,6 +881,45 @@
     "estado": "activo"
   },
   {
+    "id": "flores-rosa-cuarzo",
+    "slug": "rosa-cuarzo",
+    "nombre": "Rosa Cuarzo",
+    "categoria": "flores",
+    "descripcionCorta": "Tulipanes rosados flotando en un cuenco de vidrio.",
+    "descripcionLarga": "Cinco tulipanes de cera se abren sobre un lago cremoso en un vaso transparente, creando un centro de mesa primaveral y delicado. Ideal para ambientar brunches, bodas íntimas o regalar frescura en cualquier ocasión.",
+    "medidas": {
+      "altoCm": 7,
+      "anchoCm": 6
+    },
+    "precioBase": 5,
+    "personalizable": true,
+    "aromasDisponibles": [
+      "Jazmín",
+      "Violeta",
+      "Belle Glamour",
+      "Manzanilla"
+    ],
+    "coloresDisponibles": [
+      "Negro",
+      "Blanco",
+      "Rojo",
+      "Azul",
+      "Amarillo",
+      "Rosado",
+      "Morado",
+      "Verde",
+      "Naranja",
+      "Marrón"
+    ],
+    "imagenes": [
+      "/images/Candles/Flores/flor14.avif"
+    ],
+    "tags": [
+      "nueva colección"
+    ],
+    "estado": "activo"
+  },
+  {
     "id": "amor-rosa-love",
     "slug": "rosa-love",
     "nombre": "Rosa Love",

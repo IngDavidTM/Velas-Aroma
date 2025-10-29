@@ -58,7 +58,10 @@ export function filterProducts(allProducts: Product[], filters: ProductFilters) 
 
   return allProducts
     .filter((product) => {
-      if (selectedCollections.length && !selectedCollections.includes(product.categoria)) {
+      if (
+        selectedCollections.length &&
+        !product.categorias.some((categoria) => selectedCollections.includes(categoria))
+      ) {
         return false;
       }
 
@@ -106,4 +109,3 @@ export function filterProducts(allProducts: Product[], filters: ProductFilters) 
       }
     });
 }
-

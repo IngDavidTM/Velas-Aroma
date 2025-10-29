@@ -3,7 +3,7 @@ import ProductGrid from "@/components/product-grid";
 import PageSection from "@/components/page-section";
 import SectionIntro from "@/components/section-intro";
 import { getCollectionBySlug } from "@/data/collections";
-import { getProductsByCategory, type Product } from "@/data/products";
+import { getProductsByCategory, type ProductCategory } from "@/data/products";
 
 const contextualFilters: Record<string, string[]> = {
   flores: ["Peonía", "Girasol", "Rosa abierta", "Rosa cerrada", "Corona", "Oso de flores"],
@@ -23,7 +23,7 @@ export default async function CategoryPage({
     notFound();
   }
 
-  const products = getProductsByCategory(collection.slug as Product["categoria"]);
+  const products = getProductsByCategory(collection.slug as ProductCategory);
   const subFilters = contextualFilters[collection.slug] ?? [];
 
   return (

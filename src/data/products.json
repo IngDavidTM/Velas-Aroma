@@ -3,7 +3,6 @@
     "id": "navidad-arbol-navideno-10x5",
     "slug": "arbol-navideno-10x5",
     "nombre": "Pino Brisa Invernal",
-    "categoria": "navidad",
     "descripcionCorta": "Árbol festivo para noches elegantes.",
     "descripcionLarga": "Vela en forma de árbol con acabado único ideal para iluminar tus fiestas con elegancia.",
     "medidas": {
@@ -53,13 +52,15 @@
     "tags": [
       "edición navidad"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "navidad"
+    ]
   },
   {
     "id": "navidad-arbol-navideno-10x7",
     "slug": "arbol-navideno-10x7",
     "nombre": "Pino Noche de Luz",
-    "categoria": "navidad",
     "descripcionCorta": "Arbolito clásico de aroma acogedor.",
     "descripcionLarga": "Este arbolito de cera evoca la calidez de los días festivos con su diseño tradicional y su suave aroma especiado.",
     "medidas": {
@@ -109,13 +110,15 @@
     "tags": [
       "edición navidad"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "navidad"
+    ]
   },
   {
     "id": "navidad-arbol-navideno-9x5",
     "slug": "arbol-navideno-9x5",
     "nombre": "Pino Dulce Nieve",
-    "categoria": "navidad",
     "descripcionCorta": "Árbol minimalista de espíritu nórdico.",
     "descripcionLarga": "Con líneas limpias y diseño moderno, esta vela en forma de árbol minimalista aporta un toque nórdico a tu decoración navideña.",
     "medidas": {
@@ -165,13 +168,15 @@
     "tags": [
       "edición navidad"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "navidad"
+    ]
   },
   {
     "id": "jardin-cactus-3x3-1",
     "slug": "cactus-3x3",
     "nombre": "Cactus Mini Chispa Acumulado",
-    "categoria": "jardin",
     "descripcionCorta": "Mini cactus aromático con fragancias herbales.",
     "descripcionLarga": "Pequeño detalle botánico para escritorios o corners decorativos. Se entrega con detalles pintados a mano.",
     "medidas": {
@@ -221,13 +226,15 @@
     "tags": [
       "botánico"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-cactus-3x3-2",
     "slug": "cactus-3x3",
     "nombre": "Cactus Mini Chispa",
-    "categoria": "jardin",
     "descripcionCorta": "Mini cactus que llevan naturaleza a tu rincón.",
     "descripcionLarga": "Hermoso conjunto de cactus y suculentas perfectos para decorar un espacio en tu hogar. Un pedacito de naturaleza en tu espacio personal.",
     "medidas": {
@@ -277,13 +284,15 @@
     "tags": [
       "botánico"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-cactus-4x5",
     "slug": "cactus-4x5",
     "nombre": "Cactus Alto Desierto",
-    "categoria": "jardin",
     "descripcionCorta": "Cactus alto de encanto natural.",
     "descripcionLarga": "Pequeños guardianes del desierto que traen calma y equilibrio a cualquier rincón. Este conjunto de cactus y suculentas no solo decora, inspira: fuerza, belleza y resistencia en miniatura.",
     "medidas": {
@@ -333,13 +342,15 @@
     "tags": [
       "botánico"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-shot-cactus",
     "slug": "shot-de-cactus",
     "nombre": "Shot Verde Tónico",
-    "categoria": "jardin",
     "descripcionCorta": "Shot botánico con mucha personalidad.",
     "descripcionLarga": "Pequeña pero con gran personalidad, esta vela combina el encanto de una suave llama con la frescura de un mini cactus decorativo.",
     "medidas": {
@@ -384,13 +395,15 @@
       "personalizable",
       "botánico"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-copa-cactus",
     "slug": "copa-de-cactus",
     "nombre": "Copa Jardín Suculento",
-    "categoria": "jardin",
     "descripcionCorta": "Copa jardín que relaja y enamora.",
     "descripcionLarga": "Elegante copa que encierra la magia de un mini jardín: esta vela no solo ilumina, decora, relaja y enamora.",
     "medidas": {
@@ -435,13 +448,15 @@
       "personalizable",
       "botánico"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-calabaza",
     "slug": "calabaza-botanica",
     "nombre": "Calabaza Botánica",
-    "categoria": "jardin",
     "descripcionCorta": "Calabaza artesanal de espíritu otoñal.",
     "descripcionLarga": "Celebra el encanto del otoño con esta velita artesanal en forma de calabaza.",
     "medidas": {
@@ -491,13 +506,15 @@
     "tags": [
       "botánico"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "flores-flor-peonia-4x8",
     "slug": "flor-peonia-4x8",
     "nombre": "Flor Peonía",
-    "categoria": "flores",
     "descripcionCorta": "Peonía grande de lujo romántico.",
     "descripcionLarga": "Esta vela evoca un ramo lujoso y romántico en plena floración. Enciéndela y transforma cualquier espacio de relajación.",
     "medidas": {
@@ -539,13 +556,15 @@
       "/images/Candles/Flores/flor1.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-flor-peonia-pequena",
     "slug": "flor-peonia-pequena",
     "nombre": "Flor Peonía Pequeña",
-    "categoria": "flores",
     "descripcionCorta": "Peonía mini de encanto memorable.",
     "descripcionLarga": "Delicada pero inolvidable, esta vela captura la esencia de una peonía pequeña al amanecer. Ideal para momentos íntimos, rincones de lectura o un baño cálido.",
     "medidas": {
@@ -587,13 +606,15 @@
       "/images/Candles/Flores/flor2.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-flor-girasol-4x8",
     "slug": "flor-girasol-4x8",
     "nombre": "Flor Girasol",
-    "categoria": "flores",
     "descripcionCorta": "Girasol aromático lleno de energía.",
     "descripcionLarga": "Energizante y cálida, es perfecta para levantar el ánimo y llenar cualquier ambiente con una sensación de campo abierto bajo el sol.",
     "medidas": {
@@ -635,13 +656,15 @@
       "/images/Candles/Flores/flor3.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-rosa-abierta",
     "slug": "rosa-abierta",
     "nombre": "Rosa Abierta",
-    "categoria": "flores",
     "descripcionCorta": "Rosa abierta para noches románticas.",
     "descripcionLarga": "Esta vela irradia romanticismo y pasión. Ideal para noches especiales, ambientes íntimos o simplemente para llenar el aire de elegancia clásica.",
     "medidas": {
@@ -683,13 +706,15 @@
       "/images/Candles/Flores/flor4.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-rosa-cerrada",
     "slug": "rosa-cerrada",
     "nombre": "Rosa Cerrada",
-    "categoria": "flores",
     "descripcionCorta": "Rosa cerrada llena de misterio.",
     "descripcionLarga": "Delicada y misteriosa, esta vela evoca el instante justo antes de que la rosa se abra. Perfecta para espacios tranquilos, meditativos o cargados de intención.",
     "medidas": {
@@ -731,13 +756,15 @@
       "/images/Candles/Flores/flor5.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-flor-margarita",
     "slug": "flor-margarita",
     "nombre": "Flor Margarita",
-    "categoria": "flores",
     "descripcionCorta": "Margarita luminosa de espíritu optimista.",
     "descripcionLarga": "Ligera, fresca y optimista, esta vela está inspirada en la pureza despreocupada de una margarita al sol. Ideal para renovar energías, alegrar espacios o regalar sonrisas en forma de luz.",
     "medidas": {
@@ -779,13 +806,15 @@
       "/images/Candles/Flores/flor6.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-bella",
     "slug": "bella",
     "nombre": "Bella",
-    "categoria": "flores",
     "descripcionCorta": "Rosa en copa, sofisticada y encantadora.",
     "descripcionLarga": "Un detalle perfecto para los amantes de las rosas, tan sofisticada y elegante para decorar tu espacio personal.",
     "medidas": {
@@ -829,13 +858,15 @@
     "tags": [
       "top ventas"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-macetitas",
     "slug": "macetitas",
     "nombre": "Macetitas Florales",
-    "categoria": "flores",
     "descripcionCorta": "Mini macetas para compartir cariño.",
     "descripcionLarga": "Ideal para repartir tu cariño con varias personas: pequeñas rosas en pequeñas macetas botánicas.",
     "medidas": {
@@ -879,13 +910,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-corona-margarita",
     "slug": "corona-margarita",
     "nombre": "Corona de Margarita",
-    "categoria": "flores",
     "descripcionCorta": "Corona de margarita dulce y alegre.",
     "descripcionLarga": "¿A quién no le gustan las margaritas y más aún dentro de una maceta en forma de corona? Lindo detalle para tu persona favorita.",
     "medidas": {
@@ -927,13 +960,15 @@
       "/images/Candles/Flores/flor9.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-corona-rosa",
     "slug": "corona-rosa",
     "nombre": "Corona de Rosa",
-    "categoria": "flores",
     "descripcionCorta": "Corona de rosa digna de un trono.",
     "descripcionLarga": "La flor por excelencia del amor y la belleza eterna, ahora florece en su trono: una maceta en forma de corona que resalta toda su majestuosidad.",
     "medidas": {
@@ -975,13 +1010,15 @@
       "/images/Candles/Flores/flor10.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-corona-peonia",
     "slug": "corona-peonia",
     "nombre": "Corona de Peonía",
-    "categoria": "flores",
     "descripcionCorta": "Corona de peonía que florece con gracia.",
     "descripcionLarga": "Una flor majestuosa merece un trono a su altura. Colócala donde quieras recordar que la belleza verdadera nace del alma… y florece con gracia.",
     "medidas": {
@@ -1023,13 +1060,15 @@
       "/images/Candles/Flores/flor11.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-oso-flores-8x6",
     "slug": "oso-flores-8x6",
     "nombre": "Oso de Flores",
-    "categoria": "flores",
     "descripcionCorta": "Oso floral que abraza con fragancia.",
     "descripcionLarga": "Un abrazo de oso eterno envuelto en la fragancia y la belleza de la naturaleza, perfecto para expresar sentimientos que florecen con cada detalle.",
     "medidas": {
@@ -1073,13 +1112,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-oso-flores-6x5",
     "slug": "oso-flores-6x5",
     "nombre": "Oso de Flores Corazón",
-    "categoria": "flores",
     "descripcionCorta": "Osito corazón para quien amas.",
     "descripcionLarga": "Perfecto detalle para una persona que quieres mucho; demuestra el amor simplificado en un osito de corazón.",
     "medidas": {
@@ -1123,13 +1164,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-rosa-cuarzo",
     "slug": "rosa-cuarzo",
     "nombre": "Rosa Cuarzo",
-    "categoria": "flores",
     "descripcionCorta": "Tulipanes rosados flotando en un cuenco de vidrio.",
     "descripcionLarga": "Cinco tulipanes de cera se abren sobre un lago cremoso en un vaso transparente, creando un centro de mesa primaveral y delicado. Ideal para ambientar brunches, bodas íntimas o regalar frescura en cualquier ocasión.",
     "medidas": {
@@ -1173,13 +1216,15 @@
     "tags": [
       "nueva colección"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "amor-rosa-love",
     "slug": "rosa-love",
     "nombre": "Rosa Love",
-    "categoria": "amor-amistad",
     "descripcionCorta": "Rosa aromática con mensaje personalizado.",
     "descripcionLarga": "Incluye cinta y tarjeta para dedicar. Elige aroma y color para aniversarios, propuestas o detalles especiales.",
     "medidas": {
@@ -1223,13 +1268,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-box-love-you",
     "slug": "box-love-you",
     "nombre": "Box “Love You”",
-    "categoria": "amor-amistad",
     "descripcionCorta": "Caja regalo con velas temáticas y dedicatoria.",
     "descripcionLarga": "Arma la caja con tus aromas favoritos, incluye papel de seda y tarjeta con mensaje manuscrito.",
     "medidas": {
@@ -1274,13 +1321,15 @@
       "personalizable",
       "combo"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-sweethearts",
     "slug": "sweethearts",
     "nombre": "Sweethearts",
-    "categoria": "amor-amistad",
     "descripcionCorta": "Corazones aromáticos con frases románticas.",
     "descripcionLarga": "Disponibles individualmente o en combo x4 por $4. Personaliza aromas, colores y mensajes.",
     "medidas": {
@@ -1325,13 +1374,15 @@
       "combo",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-ramo-in-love",
     "slug": "ramo-in-love",
     "nombre": "Ramo “In Love”",
-    "categoria": "amor-amistad",
     "descripcionCorta": "Ramo de 7 margaritas aromáticas listas para regalar.",
     "descripcionLarga": "Incluye envoltorio craft y cinta. Personaliza la paleta de colores y esencia para sorprender a quien amas.",
     "medidas": {
@@ -1376,13 +1427,15 @@
       "personalizable",
       "ramo"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-ramo-beautiful",
     "slug": "ramo-beautiful",
     "nombre": "Ramo “Beautiful”",
-    "categoria": "amor-amistad",
     "descripcionCorta": "Ramo de 10 margaritas de cera.",
     "descripcionLarga": "Hecho a mano para momentos memorables. Puedes combinar aromas y colores para lograr un bouquet único.",
     "medidas": {
@@ -1427,13 +1480,15 @@
       "personalizable",
       "ramo"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-bouquet-love",
     "slug": "bouquet-love",
     "nombre": "Bouquet “Love”",
-    "categoria": "amor-amistad",
     "descripcionCorta": "Bouquet premium personalizable en aroma y color.",
     "descripcionLarga": "Incluye combinación de flores de cera, follaje y envoltura especial. Personaliza la fragancia principal y la paleta.",
     "medidas": {
@@ -1478,13 +1533,15 @@
       "personalizable",
       "ramo"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "mama-apoyo-incondicional",
     "slug": "apoyo-incondicional",
     "nombre": "Apoyo Incondicional",
-    "categoria": "mama",
     "descripcionCorta": "Vela homenaje diseñada para celebrar a mamá.",
     "descripcionLarga": "Detalles suaves, aromas relajantes y empaques listos para regalo. Puedes añadir mensaje personal o base de madera.",
     "medidas": {
@@ -1526,13 +1583,15 @@
       "/images/Candles/Madre/mama1.avif"
     ],
     "tags": [],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "mama"
+    ]
   },
   {
     "id": "mama-confidente-eterna",
     "slug": "confidente-eterna",
     "nombre": "Confidente Eterna",
-    "categoria": "mama",
     "descripcionCorta": "Vela homenaje diseñada para celebrar a mamá.",
     "descripcionLarga": "Detalles suaves, aromas relajantes y empaques listos para regalo. Puedes añadir mensaje personal o base de madera.",
     "medidas": {
@@ -1582,13 +1641,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "mama"
+    ]
   },
   {
     "id": "mama-amor-incondicional",
     "slug": "amor-incondicional",
     "nombre": "Amor Incondicional",
-    "categoria": "mama",
     "descripcionCorta": "Vela homenaje diseñada para celebrar a mamá.",
     "descripcionLarga": "Detalles suaves, aromas relajantes y empaques listos para regalo. Puedes añadir mensaje personal o base de madera.",
     "medidas": {
@@ -1638,13 +1699,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "mama"
+    ]
   },
   {
     "id": "mama-sabiduria-natural",
     "slug": "sabiduria-natural",
     "nombre": "Sabiduría Natural",
-    "categoria": "mama",
     "descripcionCorta": "Vela homenaje diseñada para celebrar a mamá.",
     "descripcionLarga": "Detalles suaves, aromas relajantes y empaques listos para regalo. Puedes añadir mensaje personal o base de madera.",
     "medidas": {
@@ -1694,13 +1757,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "mama"
+    ]
   },
   {
     "id": "bebidas-champagne-20x6",
     "slug": "champagne-20x6",
     "nombre": "Champagne",
-    "categoria": "bebidas-postres",
     "descripcionCorta": "Copa Champagne que celebra cada instante.",
     "descripcionLarga": "Su chispeante diseño evoca alegría, glamour y celebración. Ideal para regalos únicos o decorar eventos especiales.",
     "medidas": {
@@ -1751,13 +1816,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-vino-20x6",
     "slug": "vino-20x6",
     "nombre": "Vino",
-    "categoria": "bebidas-postres",
     "descripcionCorta": "Copa de vino aromática y sofisticada.",
     "descripcionLarga": "Una vela elegante en forma de copa de vino, perfecta para los amantes del buen gusto e ideal para cenas románticas o momentos de relax.",
     "medidas": {
@@ -1808,13 +1875,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-iced-coffee-12x6",
     "slug": "iced-coffee-12x6",
     "nombre": "Iced Coffee",
-    "categoria": "bebidas-postres",
     "descripcionCorta": "Vela latte que huele a recién hecho.",
     "descripcionLarga": "Esta vela imita a la perfección un caffè latte recién hecho. Perfecta para los amantes del café y ambientes acogedores.",
     "medidas": {
@@ -1858,13 +1927,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-coffee-6x6",
     "slug": "coffee-6x6",
     "nombre": "Coffee",
-    "categoria": "bebidas-postres",
     "descripcionCorta": "Taza corazón que derrite sonrisas.",
     "descripcionLarga": "Derrite corazones con esta vela encantadora en forma de taza de café con diseño de corazón, perfecta para regalar.",
     "medidas": {
@@ -1908,13 +1979,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-copa-postre-12x6",
     "slug": "copa-postre-12x6",
     "nombre": "Copa de Postre",
-    "categoria": "bebidas-postres",
     "descripcionCorta": "Copa de postre que despierta antojos.",
     "descripcionLarga": "Inspirada en los postres más tentadores, esta vela en copa es puro antojo visual.",
     "medidas": {
@@ -1958,13 +2031,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-copa-helado-8x6",
     "slug": "copa-helado-8x6",
     "nombre": "Copa de Helado",
-    "categoria": "bebidas-postres",
     "descripcionCorta": "Copa helado que refresca sentidos.",
     "descripcionLarga": "Refresca tus sentidos con esta vela en forma de copa de helado: ¡un postre para los ojos y el alma!",
     "medidas": {
@@ -2008,13 +2083,15 @@
     "tags": [
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "unicos-trenza",
     "slug": "trenza",
     "nombre": "Trenza",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Diseño escultórico de edición limitada.",
     "descripcionLarga": "Cada pieza se pigmenta y pule a mano. Perfectas para interiorismo y regalos exclusivos. Personaliza aroma y combinación cromática.",
     "medidas": {
@@ -2059,13 +2136,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-enrollado",
     "slug": "enrollado",
     "nombre": "Enrollado",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Diseño escultórico de edición limitada.",
     "descripcionLarga": "Cada pieza se pigmenta y pule a mano. Perfectas para interiorismo y regalos exclusivos. Personaliza aroma y combinación cromática.",
     "medidas": {
@@ -2110,13 +2189,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-nudo",
     "slug": "nudo",
     "nombre": "Nudo",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Diseño escultórico de edición limitada.",
     "descripcionLarga": "Cada pieza se pigmenta y pule a mano. Perfectas para interiorismo y regalos exclusivos. Personaliza aroma y combinación cromática.",
     "medidas": {
@@ -2161,13 +2242,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-burbujas",
     "slug": "burbujas",
     "nombre": "Burbujas",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Diseño escultórico de edición limitada.",
     "descripcionLarga": "Cada pieza se pigmenta y pule a mano. Perfectas para interiorismo y regalos exclusivos. Personaliza aroma y combinación cromática.",
     "medidas": {
@@ -2212,13 +2295,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-combi",
     "slug": "combi",
     "nombre": "Combi",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Diseño escultórico de edición limitada.",
     "descripcionLarga": "Cada pieza se pigmenta y pule a mano. Perfectas para interiorismo y regalos exclusivos. Personaliza aroma y combinación cromática.",
     "medidas": {
@@ -2263,13 +2348,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-pina",
     "slug": "pina",
     "nombre": "Piña",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Diseño escultórico de edición limitada.",
     "descripcionLarga": "Cada pieza se pigmenta y pule a mano. Perfectas para interiorismo y regalos exclusivos. Personaliza aroma y combinación cromática.",
     "medidas": {
@@ -2314,13 +2401,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-llama",
     "slug": "llama",
     "nombre": "Llama",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Alpaca artesana que irradia calidez.",
     "descripcionLarga": "Con su carita tierna y su estilo inconfundible, esta vela en forma de alpaca trae un toque de calidez y simpatía a cualquier espacio perfecto para amantes de lo artesanal.",
     "medidas": {
@@ -2365,13 +2454,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-cat",
     "slug": "cat",
     "nombre": "Cat",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Gato elegante con mucha personalidad.",
     "descripcionLarga": "Esta vela de gato elegante combina estilo y personalidad, perfecta para quienes aman el misterio y la gracia de los felinos.",
     "medidas": {
@@ -2416,13 +2507,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-paw",
     "slug": "paw",
     "nombre": "Paw",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Huella aromática para celebrar a tu peludo.",
     "descripcionLarga": "Porque el amor por tu peludo se merece un rincón especial. Perfecta para honrar su ternura, su lealtad y esos momentos inolvidables.",
     "medidas": {
@@ -2467,13 +2560,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-bear",
     "slug": "bear",
     "nombre": "Bear",
-    "categoria": "disenos-unicos",
     "descripcionCorta": "Oso polar artesanal que desborda ternura invernal.",
     "descripcionLarga": "Tiernos, invernales y adorables. Estos osos polares en forma de vela traen consigo la calma de los paisajes helados y la dulzura de la naturaleza.",
     "medidas": {
@@ -2518,13 +2613,15 @@
       "edición limitada",
       "personalizable"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "autor-estilo-sobrio",
     "slug": "estilo-sobrio",
     "nombre": "Estilo Sobrio",
-    "categoria": "velas-de-autor",
     "descripcionCorta": "Colección conceptual firmada por Velas & Aroma.",
     "descripcionLarga": "Formas arquitectónicas y fragancias complejas pensadas para espacios contemporáneos. Cada lote es numerado.",
     "medidas": {
@@ -2568,13 +2665,15 @@
     "tags": [
       "edición limitada"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "autor-estilo-clasico",
     "slug": "estilo-clasico",
     "nombre": "Estilo Clásico",
-    "categoria": "velas-de-autor",
     "descripcionCorta": "Colección conceptual firmada por Velas & Aroma.",
     "descripcionLarga": "Formas arquitectónicas y fragancias complejas pensadas para espacios contemporáneos. Cada lote es numerado.",
     "medidas": {
@@ -2618,13 +2717,15 @@
     "tags": [
       "edición limitada"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "autor-estilo-nordico",
     "slug": "estilo-nordico",
     "nombre": "Estilo Nórdico",
-    "categoria": "velas-de-autor",
     "descripcionCorta": "Colección conceptual firmada por Velas & Aroma.",
     "descripcionLarga": "Formas arquitectónicas y fragancias complejas pensadas para espacios contemporáneos. Cada lote es numerado.",
     "medidas": {
@@ -2668,13 +2769,15 @@
     "tags": [
       "edición limitada"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "autor-estilo-pascuas",
     "slug": "estilo-pascuas",
     "nombre": "Estilo Pascuas",
-    "categoria": "velas-de-autor",
     "descripcionCorta": "Colección conceptual firmada por Velas & Aroma.",
     "descripcionLarga": "Formas arquitectónicas y fragancias complejas pensadas para espacios contemporáneos. Cada lote es numerado.",
     "medidas": {
@@ -2718,13 +2821,15 @@
     "tags": [
       "edición limitada"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "waxmelts-personalizados",
     "slug": "wax-melts-personalizados",
     "nombre": "Wax Melts Personalizados",
-    "categoria": "wax-melts",
     "descripcionCorta": "Combos de wax melts personalizables desde $1.",
     "descripcionLarga": "Elige fragancias, diseños y empaques para eventos, ventas mayoristas o kits sensoriales. Cada lote se hace bajo pedido.",
     "medidas": {
@@ -2770,6 +2875,9 @@
       "personalizable",
       "mayoristas"
     ],
-    "estado": "activo"
+    "estado": "activo",
+    "categorias": [
+      "wax-melts"
+    ]
   }
 ]

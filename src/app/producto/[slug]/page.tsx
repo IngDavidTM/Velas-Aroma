@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
 import ProductGrid from "@/components/product-grid";
-import { getProductBySlug, getProductsByCategory } from "@/data/products";
+import {
+  getProductBySlug,
+  getProductsByCategories,
+} from "@/data/products";
 import ProductDetail from "@/app/producto/product-detail";
 
 export default async function ProductPage({
@@ -15,7 +18,7 @@ export default async function ProductPage({
     notFound();
   }
 
-  const related = getProductsByCategory(product.categoria).filter(
+  const related = getProductsByCategories(product.categorias).filter(
     (item) => item.slug !== product.slug,
   );
 

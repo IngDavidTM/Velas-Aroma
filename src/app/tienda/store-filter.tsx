@@ -95,7 +95,7 @@ export default function FilterSidebar({
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Aromas</p>
         <div className="mt-3 grid gap-2 text-sm text-brand-charcoal/80">
           {aromaOptions.map((aroma) => (
@@ -135,7 +135,7 @@ export default function FilterSidebar({
             );
           })}
         </div>
-      </div>
+      </div> */}
 
       <div>
         <p className="text-xs uppercase tracking-[0.25em] text-brand-brown/70">Personalizable</p>

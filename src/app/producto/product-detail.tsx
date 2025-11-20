@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import SectionIntro from "@/components/section-intro";
@@ -8,6 +8,7 @@ import BorderPanel from "@/components/border-panel";
 import type { Product, ProductExtra } from "@/data/products";
 import { useCart } from "@/components/cart-provider";
 import { buildWhatsappLink, contactInfo } from "@/data/site";
+import { buildColorVariantPath } from "@/lib/product-images";
 
 type ProductDetailProps = {
   product: Product;
@@ -25,6 +26,9 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   const [selectedExtras, setSelectedExtras] = useState<string[]>([]);
   const [quantity, setQuantity] = useState(1);
   const [feedback, setFeedback] = useState<string | null>(null);
+  const defaultImage = product.imagenes[0] ?? "/images/products/placeholder.jpg";
+  const [previewImage, setPreviewImage] = useState(defaultImage);
+  const variantCache = useRef<Record<string, string | null>>({});
 
   const availableExtras = useMemo(() => product.extras ?? [], [product.extras]);
 
@@ -70,16 +74,69 @@ export default function ProductDetail({ product }: ProductDetailProps) {
     });
   };
 
+  const variantFolder = product.variantesPorColor?.folder;
+  const variantFormat = product.variantesPorColor?.formato ?? "avif";
+
+  useEffect(() => {
+    variantCache.current = {};
+    setPreviewImage(defaultImage);
+  }, [product.slug, defaultImage]);
+
+  useEffect(() => {
+    const folder = variantFolder;
+    const format = variantFormat;
+    if (!folder) {
+      setPreviewImage(defaultImage);
+      return;
+    }
+
+    const cacheKey = `${selectedColor}`;
+    if (variantCache.current[cacheKey] !== undefined) {
+      const cached = variantCache.current[cacheKey];
+      setPreviewImage(cached ?? defaultImage);
+      return;
+    }
+
+    const candidate = buildColorVariantPath(folder, selectedColor, format);
+    if (!candidate) {
+      setPreviewImage(defaultImage);
+      return;
+    }
+
+    let active = true;
+    fetch(candidate, { method: "HEAD" })
+      .then((response) => {
+        if (!active) return;
+        if (response.ok) {
+          variantCache.current[cacheKey] = candidate;
+          setPreviewImage(candidate);
+        } else {
+          variantCache.current[cacheKey] = null;
+          setPreviewImage(defaultImage);
+        }
+      })
+      .catch(() => {
+        if (!active) return;
+        variantCache.current[cacheKey] = null;
+        setPreviewImage(defaultImage);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [selectedColor, defaultImage, variantFolder, variantFormat]);
+
   return (
     <div className="grid gap-10 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
       <div className="space-y-4">
         <div className="relative aspect-square w-full overflow-hidden border border-brand-sand/70 bg-brand-sand/30">
           <Image
-            src={product.imagenes[0] ?? "/images/products/placeholder.jpg"}
+            key={previewImage}
+            src={previewImage}
             alt={product.nombre}
             fill
             sizes="(max-width:768px) 100vw, 50vw"
-            className="object-cover"
+            className="object-cover transition-opacity"
           />
         </div>
         {product.imagenes.length > 1 ? (

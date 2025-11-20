@@ -31,6 +31,10 @@ export type Product = {
   aromasDisponibles: Aroma[];
   coloresDisponibles: string[];
   imagenes: string[];
+  variantesPorColor?: {
+    folder?: string;
+    formato?: "avif" | "png";
+  };
   tags?: string[];
   estado: "activo" | "agotado";
 };

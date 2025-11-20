@@ -559,7 +559,11 @@
     "estado": "activo",
     "categorias": [
       "flores"
-    ]
+    ],
+    "variantesPorColor": {
+      "folder": "/images/Candles/Flores/flor1",
+      "formato": "avif"
+    }
   },
   {
     "id": "flores-flor-peonia-pequena",

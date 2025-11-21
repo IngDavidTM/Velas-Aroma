@@ -28,7 +28,8 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   const [feedback, setFeedback] = useState<string | null>(null);
   const defaultImage = product.imagenes[0] ?? "/images/products/placeholder.jpg";
   const [previewImage, setPreviewImage] = useState(defaultImage);
-  const variantCache = useRef<Record<string, string | null>>({});
+  const variantCache = useRef<Record<string, "loading" | "loaded" | "error">>({});
+  const selectedColorRef = useRef(selectedColor);
 
   const availableExtras = useMemo(() => product.extras ?? [], [product.extras]);
 
@@ -76,6 +77,21 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
   const variantFolder = product.variantesPorColor?.folder;
   const variantFormat = product.variantesPorColor?.formato ?? "avif";
+  const variantImages = useMemo(() => {
+    if (!variantFolder) return {} as Record<string, string>;
+    const map: Record<string, string> = {};
+    for (const color of product.coloresDisponibles) {
+      const candidate = buildColorVariantPath(variantFolder, color, variantFormat);
+      if (candidate) {
+        map[color] = candidate;
+      }
+    }
+    return map;
+  }, [variantFolder, variantFormat, product.coloresDisponibles]);
+
+  useEffect(() => {
+    selectedColorRef.current = selectedColor;
+  }, [selectedColor]);
 
   useEffect(() => {
     variantCache.current = {};
@@ -83,61 +99,67 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   }, [product.slug, defaultImage]);
 
   useEffect(() => {
-    const folder = variantFolder;
-    const format = variantFormat;
-    if (!folder) {
-      setPreviewImage(defaultImage);
-      return;
-    }
-
-    const cacheKey = `${selectedColor}`;
-    if (variantCache.current[cacheKey] !== undefined) {
-      const cached = variantCache.current[cacheKey];
-      setPreviewImage(cached ?? defaultImage);
-      return;
-    }
-
-    const candidate = buildColorVariantPath(folder, selectedColor, format);
+    const candidate = variantImages[selectedColor];
     if (!candidate) {
       setPreviewImage(defaultImage);
       return;
     }
 
+    const cached = variantCache.current[selectedColor];
+    if (cached === "loaded") {
+      setPreviewImage(candidate);
+      return;
+    }
+    if (cached === "error") {
+      setPreviewImage(defaultImage);
+      return;
+    }
+    if (cached === "loading") {
+      return;
+    }
+
+    variantCache.current[selectedColor] = "loading";
     let active = true;
-    fetch(candidate, { method: "HEAD" })
-      .then((response) => {
-        if (!active) return;
-        if (response.ok) {
-          variantCache.current[cacheKey] = candidate;
-          setPreviewImage(candidate);
-        } else {
-          variantCache.current[cacheKey] = null;
-          setPreviewImage(defaultImage);
-        }
-      })
-      .catch(() => {
-        if (!active) return;
-        variantCache.current[cacheKey] = null;
+    const img = new window.Image();
+    img.onload = () => {
+      if (!active) return;
+      variantCache.current[selectedColor] = "loaded";
+      if (selectedColorRef.current === selectedColor) {
+        setPreviewImage(candidate);
+      }
+    };
+    img.onerror = () => {
+      if (!active) return;
+      variantCache.current[selectedColor] = "error";
+      if (selectedColorRef.current === selectedColor) {
         setPreviewImage(defaultImage);
-      });
+      }
+    };
+    img.src = candidate;
 
     return () => {
       active = false;
     };
-  }, [selectedColor, defaultImage, variantFolder, variantFormat]);
+  }, [selectedColor, defaultImage, variantImages]);
 
   return (
     <div className="grid gap-10 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
       <div className="space-y-4">
         <div className="relative aspect-square w-full overflow-hidden border border-brand-sand/70 bg-brand-sand/30">
           <Image
-            key={previewImage}
             src={previewImage}
             alt={product.nombre}
             fill
             sizes="(max-width:768px) 100vw, 50vw"
             className="object-cover transition-opacity"
           />
+          {variantFolder ? (
+            <div className="hidden">
+              {Object.entries(variantImages).map(([color, src]) => (
+                <Image key={color} src={src} alt={`${product.nombre} ${color}`} width={10} height={10} priority />
+              ))}
+            </div>
+          ) : null}
         </div>
         {product.imagenes.length > 1 ? (
           <div className="grid grid-cols-4 gap-3">

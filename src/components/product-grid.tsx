@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import ProductCard from "@/components/product-card";
 import type { Product } from "@/data/products";
 import PageSection from "@/components/page-section";
@@ -9,6 +12,7 @@ interface ProductGridProps {
   description?: string;
   products: Product[];
   emptyMessage?: string;
+  animate?: boolean;
 }
 
 export default function ProductGrid({
@@ -17,7 +21,40 @@ export default function ProductGrid({
   description,
   products,
   emptyMessage = "No hay productos disponibles por ahora.",
+  animate = false,
 }: ProductGridProps) {
+  const gridRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!animate) return;
+
+    const grid = gridRef.current;
+    if (!grid || !products.length) return;
+
+    const cards = Array.from(grid.children) as HTMLElement[];
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            cards.forEach((card, index) => {
+              setTimeout(() => {
+                card.style.opacity = "1";
+                card.style.transform = "translateY(0)";
+              }, index * 100);
+            });
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(grid);
+
+    return () => observer.disconnect();
+  }, [products.length, animate]);
+
   return (
     <PageSection className="md:px-10">
       {(title || eyebrow) && (
@@ -29,9 +66,14 @@ export default function ProductGrid({
         />
       )}
       {products.length ? (
-        <div className="grid gap-6 md:grid-cols-3">
+        <div ref={gridRef} className="grid gap-6 md:grid-cols-3">
           {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <div
+              key={product.id}
+              className={animate ? "opacity-0 translate-y-8 transition-all duration-700" : ""}
+            >
+              <ProductCard product={product} />
+            </div>
           ))}
         </div>
       ) : (

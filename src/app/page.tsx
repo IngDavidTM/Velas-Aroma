@@ -116,6 +116,7 @@ export default function Home() {
         title="Piezas favoritas de la comunidad."
         description="Descubre los diseños que más se llevan para regalos, rituales personales y decoración."
         products={featuredProducts}
+        animate
       />
 
       <PageSection className="md:px-10">

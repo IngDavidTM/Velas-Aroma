@@ -47,31 +47,38 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-brand-cream text-brand-charcoal`}
       >
         <Providers>
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-brand-brown focus:px-4 focus:py-2 focus:text-brand-cream focus:outline-none focus:ring-2 focus:ring-brand-brown"
+          >
+            Saltar al contenido principal
+          </a>
           <div className="min-h-screen">
             <header className="relative z-50 border-b border-brand-sand/70 bg-brand-cream/95 backdrop-blur">
-            <div className="mx-auto flex max-w-8xl items-center justify-between px-4 py-4 sm:px-6">
-              <Link
-                href="/"
-                aria-label="Velas & Aroma inicio"
-                className="flex items-center gap-3"
-              >
-                <Image
-                  src="/logo.png"
-                  alt="Velas & Aroma"
-                  width={56}
-                  height={56}
-                  priority
-                  className="h-12 w-12 rounded-full shadow-sm shadow-brand-sand/40 dark:shadow-brand-brown/40"
-                />
-                <span className="text-sm font-semibold uppercase tracking-[0.35em] text-brand-brown">
-                  Velas &amp; Aroma
-                </span>
-              </Link>
-              <HeaderNavigation navItems={navItems} />
-            </div>
+              <div className="mx-auto flex max-w-8xl items-center justify-between px-4 py-4 sm:px-6">
+                <Link
+                  href="/"
+                  aria-label="Velas & Aroma inicio"
+                  className="flex items-center gap-3"
+                >
+                  <Image
+                    src="/logo.png"
+                    alt="Velas & Aroma"
+                    width={56}
+                    height={56}
+                    priority
+                    sizes="56px"
+                    className="h-12 w-12 rounded-full shadow-sm shadow-brand-sand/40 dark:shadow-brand-brown/40"
+                  />
+                  <span className="text-sm font-semibold uppercase tracking-[0.35em] text-brand-brown">
+                    Velas &amp; Aroma
+                  </span>
+                </Link>
+                <HeaderNavigation navItems={navItems} />
+              </div>
             </header>
 
-            <main className="mx-auto w-full max-w-8xl md:border-l md:border-r md:border-brand-sand/60">
+            <main id="main-content" className="mx-auto w-full max-w-8xl md:border-l md:border-r md:border-brand-sand/60">
               {children}
             </main>
 

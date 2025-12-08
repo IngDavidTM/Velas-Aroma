@@ -14,7 +14,7 @@ export default function CollectionRail({ collections, className }: CollectionRai
     <section className={cn("px-4 py-14 sm:px-6 md:px-10", className)}>
       <SectionIntro
         eyebrow="Colecciones"
-        title="Descubre nuestras velas por atmósfera." 
+        title="Descubre nuestras velas por atmósfera."
         description="Selecciona la colección que mejor resuena con el momento que quieres crear."
         className="mb-8"
       />
@@ -30,7 +30,8 @@ export default function CollectionRail({ collections, className }: CollectionRai
                 src={collection.heroImage}
                 alt={collection.title}
                 fill
-                sizes="(max-width:768px) 100vw, 25vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                loading="lazy"
                 className="object-cover"
               />
               <span className="absolute inset-0 bg-gradient-to-t from-brand-cream/70 to-transparent transition group-hover:from-brand-brown/30" />

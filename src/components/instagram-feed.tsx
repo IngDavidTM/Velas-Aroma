@@ -36,7 +36,14 @@ export default function InstagramFeed() {
       <div className="mt-8 grid gap-3 sm:grid-cols-3 md:grid-cols-6">
         {mockFeed.map((image) => (
           <div key={image} className="relative aspect-square bg-brand-sand/40">
-            <Image src={image} alt="Instagram" fill sizes="(max-width:768px) 50vw, 16vw" className="object-cover" />
+            <Image
+              src={image}
+              alt="Instagram"
+              fill
+              sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 16vw"
+              loading="lazy"
+              className="object-cover"
+            />
           </div>
         ))}
       </div>

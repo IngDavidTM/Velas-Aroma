@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import ProductGrid from "@/components/product-grid";
 import PageSection from "@/components/page-section";
 import SectionIntro from "@/components/section-intro";
-import { getCollectionBySlug } from "@/data/collections";
+import { getCollectionBySlug, collections } from "@/data/collections";
 import { getProductsByCategory, type ProductCategory } from "@/data/products";
 
 const contextualFilters: Record<string, string[]> = {
@@ -10,6 +11,47 @@ const contextualFilters: Record<string, string[]> = {
   navidad: ["Árbol", "Campana", "Bola", "Corona"],
   jardin: ["Lavanda", "Hierbas", "Cítricos"],
 };
+
+export async function generateStaticParams() {
+  return collections.map((collection) => ({
+    slug: collection.slug,
+  }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const collection = getCollectionBySlug(slug);
+
+  if (!collection) {
+    return {
+      title: "Categoría no encontrada | Velas & Aroma",
+    };
+  }
+
+  return {
+    title: `${collection.title} | Velas & Aroma`,
+    description: collection.description,
+    openGraph: {
+      title: `${collection.title} | Velas & Aroma`,
+      description: collection.description,
+      images: [collection.heroImage],
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${collection.title} | Velas & Aroma`,
+      description: collection.description,
+      images: [collection.heroImage],
+    },
+    alternates: {
+      canonical: `/categoria/${slug}`,
+    },
+  };
+}
 
 export default async function CategoryPage({
   params,

@@ -42,7 +42,9 @@ export default function HeaderNavigation({ navItems }: HeaderNavigationProps) {
 
       <button
         type="button"
-        aria-label="Abrir menú"
+        aria-label={open ? "Cerrar menú" : "Abrir menú"}
+        aria-expanded={open}
+        aria-controls="mobile-menu"
         onClick={() => setOpen((prev) => !prev)}
         className="inline-flex items-center gap-2 rounded border border-brand-brown/50 px-3 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-brand-brown transition hover:border-brand-brown lg:hidden"
       >
@@ -50,7 +52,12 @@ export default function HeaderNavigation({ navItems }: HeaderNavigationProps) {
       </button>
 
       {open ? (
-        <div className="fixed left-0 right-0 top-[72px] z-50 max-h-[calc(100vh-72px)] overflow-y-auto border-t border-brand-sand/70 bg-brand-cream/98 px-6 py-6 shadow-2xl lg:hidden">
+        <div
+          id="mobile-menu"
+          role="navigation"
+          aria-label="Menú principal móvil"
+          className="fixed left-0 right-0 top-[72px] z-50 max-h-[calc(100vh-72px)] overflow-y-auto border-t border-brand-sand/70 bg-brand-cream/98 px-6 py-6 shadow-2xl lg:hidden"
+        >
           <nav className="flex flex-col gap-3 text-sm font-medium uppercase tracking-[0.2em] text-brand-brown/80">
             {navItems.map((item) =>
               item.href === "/carrito" ? (

@@ -17,16 +17,17 @@ export default function ProductCard({ product, layout = "grid" }: ProductCardPro
         layout === "list" ? "flex gap-6" : "flex flex-col",
       )}
     >
-      <div className={cn("relative bg-brand-sand/25", layout === "list" ? "h-32 w-32" : "h-52 w-full") }>
+      <div className={cn("relative bg-brand-sand/25", layout === "list" ? "h-32 w-32" : "h-52 w-full")}>
         <Image
           src={product.imagenes[0] ?? "/images/products/placeholder.jpg"}
           alt={product.nombre}
           fill
-          sizes={layout === "list" ? "128px" : "(max-width:768px) 100vw, 25vw"}
+          sizes={layout === "list" ? "128px" : "(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"}
+          loading="lazy"
           className="object-cover"
         />
       </div>
-      <div className={cn("p-5", layout === "list" ? "flex-1" : "flex flex-col gap-2") }>
+      <div className={cn("p-5", layout === "list" ? "flex-1" : "flex flex-col gap-2")}>
         <h3 className="text-base font-semibold text-brand-brown">{product.nombre}</h3>
         <p className="text-sm text-brand-charcoal/80">{product.descripcionCorta}</p>
         <div className="mt-3 flex flex-wrap items-center gap-2 text-xs uppercase tracking-[0.2em] text-brand-brown/70">

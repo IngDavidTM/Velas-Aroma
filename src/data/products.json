@@ -46,10 +46,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Navidad/tree2.avif"],
-    "tags": ["edición navidad"],
+    "imagenes": [
+      "/images/Candles/Navidad/tree2.avif"
+    ],
+    "tags": [
+      "edición navidad"
+    ],
     "estado": "activo",
-    "categorias": ["navidad"]
+    "categorias": [
+      "navidad"
+    ]
   },
   {
     "id": "navidad-arbol-navideno-10x7",
@@ -98,10 +104,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Navidad/tree1.avif"],
-    "tags": ["edición navidad"],
+    "imagenes": [
+      "/images/Candles/Navidad/tree1.avif"
+    ],
+    "tags": [
+      "edición navidad"
+    ],
     "estado": "activo",
-    "categorias": ["navidad"]
+    "categorias": [
+      "navidad"
+    ]
   },
   {
     "id": "navidad-arbol-navideno-9x5",
@@ -150,10 +162,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Navidad/tree3.avif"],
-    "tags": ["edición navidad"],
+    "imagenes": [
+      "/images/Candles/Navidad/tree3.avif"
+    ],
+    "tags": [
+      "edición navidad"
+    ],
     "estado": "activo",
-    "categorias": ["navidad"]
+    "categorias": [
+      "navidad"
+    ]
   },
   {
     "id": "jardin-cactus-3x3-1",
@@ -202,10 +220,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Jardin/planta2.avif"],
-    "tags": ["botánico"],
+    "imagenes": [
+      "/images/Candles/Jardin/planta2.avif"
+    ],
+    "tags": [
+      "botánico"
+    ],
     "estado": "activo",
-    "categorias": ["jardin"]
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-cactus-3x3-2",
@@ -254,10 +278,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Jardin/planta1.avif"],
-    "tags": ["botánico"],
+    "imagenes": [
+      "/images/Candles/Jardin/planta1.avif"
+    ],
+    "tags": [
+      "botánico"
+    ],
     "estado": "activo",
-    "categorias": ["jardin"]
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-cactus-4x5",
@@ -306,10 +336,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Jardin/planta3.avif"],
-    "tags": ["botánico"],
+    "imagenes": [
+      "/images/Candles/Jardin/planta3.avif"
+    ],
+    "tags": [
+      "botánico"
+    ],
     "estado": "activo",
-    "categorias": ["jardin"]
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-shot-cactus",
@@ -352,10 +388,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Jardin/planta4.avif"],
-    "tags": ["personalizable", "botánico"],
+    "imagenes": [
+      "/images/Candles/Jardin/planta4.avif"
+    ],
+    "tags": [
+      "personalizable",
+      "botánico"
+    ],
     "estado": "activo",
-    "categorias": ["jardin"]
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-copa-cactus",
@@ -398,10 +441,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Jardin/planta5.avif"],
-    "tags": ["personalizable", "botánico"],
+    "imagenes": [
+      "/images/Candles/Jardin/planta5.avif"
+    ],
+    "tags": [
+      "personalizable",
+      "botánico"
+    ],
     "estado": "activo",
-    "categorias": ["jardin"]
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "jardin-calabaza",
@@ -450,10 +500,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Jardin/planta6.avif"],
-    "tags": ["botánico"],
+    "imagenes": [
+      "/images/Candles/Jardin/planta6.avif"
+    ],
+    "tags": [
+      "botánico"
+    ],
     "estado": "activo",
-    "categorias": ["jardin"]
+    "categorias": [
+      "jardin"
+    ]
   },
   {
     "id": "flores-flor-peonia-4x8",
@@ -496,10 +552,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor1.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor1.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"],
+    "categorias": [
+      "flores"
+    ],
     "variantesPorColor": {
       "folder": "/images/Candles/Flores/flor1",
       "formato": "avif"
@@ -546,10 +606,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor2.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor2.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"],
+    "categorias": [
+      "flores"
+    ],
     "variantesPorColor": {
       "folder": "/images/Candles/Flores/flor2",
       "formato": "avif"
@@ -596,10 +660,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor3.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor3.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"],
+    "categorias": [
+      "flores"
+    ],
     "variantesPorColor": {
       "folder": "/images/Candles/Flores/flor3",
       "formato": "avif"
@@ -646,10 +714,18 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor4.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor4.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ],
+    "variantesPorColor": {
+      "folder": "/images/Candles/Flores/flor4",
+      "formato": "avif"
+    }
   },
   {
     "id": "flores-rosa-cerrada",
@@ -692,10 +768,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor5.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor5.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-flor-margarita",
@@ -738,10 +818,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor6.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor6.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-bella",
@@ -784,10 +868,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor7.avif"],
-    "tags": ["top ventas"],
+    "imagenes": [
+      "/images/Candles/Flores/flor7.avif"
+    ],
+    "tags": [
+      "top ventas"
+    ],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-macetitas",
@@ -830,10 +920,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor8.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Flores/flor8.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-corona-margarita",
@@ -876,10 +972,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor9.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor9.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-corona-rosa",
@@ -922,10 +1022,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor10.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor10.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-corona-peonia",
@@ -968,10 +1072,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor11.avif"],
+    "imagenes": [
+      "/images/Candles/Flores/flor11.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-oso-flores-8x6",
@@ -1014,10 +1122,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor12.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Flores/flor12.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-oso-flores-6x5",
@@ -1060,10 +1174,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor13.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Flores/flor13.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "flores-rosa-cuarzo",
@@ -1106,10 +1226,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Flores/flor14.avif"],
-    "tags": ["nueva colección"],
+    "imagenes": [
+      "/images/Candles/Flores/flor14.avif"
+    ],
+    "tags": [
+      "nueva colección"
+    ],
     "estado": "activo",
-    "categorias": ["flores"]
+    "categorias": [
+      "flores"
+    ]
   },
   {
     "id": "amor-rosa-love",
@@ -1152,10 +1278,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/SanValentin/amor2.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/SanValentin/amor2.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["amor-amistad"]
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-box-love-you",
@@ -1198,10 +1330,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/SanValentin/amor3.avif"],
-    "tags": ["personalizable", "combo"],
+    "imagenes": [
+      "/images/Candles/SanValentin/amor3.avif"
+    ],
+    "tags": [
+      "personalizable",
+      "combo"
+    ],
     "estado": "activo",
-    "categorias": ["amor-amistad"]
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-sweethearts",
@@ -1244,10 +1383,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/SanValentin/amor4.avif"],
-    "tags": ["combo", "personalizable"],
+    "imagenes": [
+      "/images/Candles/SanValentin/amor4.avif"
+    ],
+    "tags": [
+      "combo",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["amor-amistad"]
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-ramo-in-love",
@@ -1290,10 +1436,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/SanValentin/amor5.avif"],
-    "tags": ["personalizable", "ramo"],
+    "imagenes": [
+      "/images/Candles/SanValentin/amor5.avif"
+    ],
+    "tags": [
+      "personalizable",
+      "ramo"
+    ],
     "estado": "activo",
-    "categorias": ["amor-amistad"]
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-ramo-beautiful",
@@ -1336,10 +1489,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/SanValentin/amor6.avif"],
-    "tags": ["personalizable", "ramo"],
+    "imagenes": [
+      "/images/Candles/SanValentin/amor6.avif"
+    ],
+    "tags": [
+      "personalizable",
+      "ramo"
+    ],
     "estado": "activo",
-    "categorias": ["amor-amistad"]
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "amor-bouquet-love",
@@ -1382,10 +1542,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/SanValentin/amor1.avif"],
-    "tags": ["personalizable", "ramo"],
+    "imagenes": [
+      "/images/Candles/SanValentin/amor1.avif"
+    ],
+    "tags": [
+      "personalizable",
+      "ramo"
+    ],
     "estado": "activo",
-    "categorias": ["amor-amistad"]
+    "categorias": [
+      "amor-amistad"
+    ]
   },
   {
     "id": "mama-apoyo-incondicional",
@@ -1428,10 +1595,14 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Madre/mama1.avif"],
+    "imagenes": [
+      "/images/Candles/Madre/mama1.avif"
+    ],
     "tags": [],
     "estado": "activo",
-    "categorias": ["mama"]
+    "categorias": [
+      "mama"
+    ]
   },
   {
     "id": "mama-confidente-eterna",
@@ -1480,10 +1651,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Madre/mama2.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Madre/mama2.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["mama", "flores"]
+    "categorias": [
+      "mama",
+      "flores"
+    ]
   },
   {
     "id": "mama-amor-incondicional",
@@ -1532,10 +1710,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Madre/mama3.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Madre/mama3.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["mama", "flores"]
+    "categorias": [
+      "mama",
+      "flores"
+    ]
   },
   {
     "id": "mama-sabiduria-natural",
@@ -1584,10 +1769,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Madre/mama4.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Madre/mama4.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["mama", "flores"]
+    "categorias": [
+      "mama",
+      "flores"
+    ]
   },
   {
     "id": "bebidas-champagne-20x6",
@@ -1640,9 +1832,13 @@
       "/images/Candles/Postres/postre1.avif",
       "/images/Candles/Postres/postre2.avif"
     ],
-    "tags": ["personalizable"],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["bebidas-postres"]
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-vino-20x6",
@@ -1695,9 +1891,13 @@
       "/images/Candles/Postres/postre2.avif",
       "/images/Candles/Postres/postre3.avif"
     ],
-    "tags": ["personalizable"],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["bebidas-postres"]
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-iced-coffee-12x6",
@@ -1740,10 +1940,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Postres/postre3.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Postres/postre3.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["bebidas-postres"]
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-coffee-6x6",
@@ -1786,10 +1992,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Postres/postre4.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Postres/postre4.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["bebidas-postres"]
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-copa-postre-12x6",
@@ -1832,10 +2044,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Postres/postre5.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Postres/postre5.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["bebidas-postres"]
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "bebidas-copa-helado-8x6",
@@ -1878,10 +2096,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Postres/postre6.avif"],
-    "tags": ["personalizable"],
+    "imagenes": [
+      "/images/Candles/Postres/postre6.avif"
+    ],
+    "tags": [
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["bebidas-postres"]
+    "categorias": [
+      "bebidas-postres"
+    ]
   },
   {
     "id": "unicos-trenza",
@@ -1924,10 +2148,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico1.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico1.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-enrollado",
@@ -1970,10 +2201,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico2.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico2.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-nudo",
@@ -2016,10 +2254,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico3.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico3.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-burbujas",
@@ -2062,10 +2307,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico4.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico4.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-combi",
@@ -2108,10 +2360,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico5.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico5.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-pina",
@@ -2154,10 +2413,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico6.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico6.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-llama",
@@ -2200,10 +2466,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico7.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico7.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-cat",
@@ -2246,10 +2519,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico8.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico8.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-paw",
@@ -2292,10 +2572,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico9.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico9.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "unicos-bear",
@@ -2338,10 +2625,17 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Unicos/unico10.avif"],
-    "tags": ["edición limitada", "personalizable"],
+    "imagenes": [
+      "/images/Candles/Unicos/unico10.avif"
+    ],
+    "tags": [
+      "edición limitada",
+      "personalizable"
+    ],
     "estado": "activo",
-    "categorias": ["disenos-unicos"]
+    "categorias": [
+      "disenos-unicos"
+    ]
   },
   {
     "id": "autor-estilo-sobrio",
@@ -2384,10 +2678,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Autor/autor1.avif"],
-    "tags": ["edición limitada"],
+    "imagenes": [
+      "/images/Candles/Autor/autor1.avif"
+    ],
+    "tags": [
+      "edición limitada"
+    ],
     "estado": "activo",
-    "categorias": ["velas-de-autor"]
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "autor-estilo-clasico",
@@ -2430,10 +2730,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Autor/autor2.avif"],
-    "tags": ["edición limitada"],
+    "imagenes": [
+      "/images/Candles/Autor/autor2.avif"
+    ],
+    "tags": [
+      "edición limitada"
+    ],
     "estado": "activo",
-    "categorias": ["velas-de-autor"]
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "autor-estilo-nordico",
@@ -2476,10 +2782,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Autor/autor3.avif"],
-    "tags": ["edición limitada"],
+    "imagenes": [
+      "/images/Candles/Autor/autor3.avif"
+    ],
+    "tags": [
+      "edición limitada"
+    ],
     "estado": "activo",
-    "categorias": ["velas-de-autor"]
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "autor-estilo-pascuas",
@@ -2522,10 +2834,16 @@
       "Naranja",
       "Marrón"
     ],
-    "imagenes": ["/images/Candles/Autor/autor4.avif"],
-    "tags": ["edición limitada"],
+    "imagenes": [
+      "/images/Candles/Autor/autor4.avif"
+    ],
+    "tags": [
+      "edición limitada"
+    ],
     "estado": "activo",
-    "categorias": ["velas-de-autor"]
+    "categorias": [
+      "velas-de-autor"
+    ]
   },
   {
     "id": "waxmelts-personalizados",
@@ -2572,8 +2890,13 @@
       "/images/Candles/Wax/wax1.avif",
       "/images/Candles/Wax/wax2.avif"
     ],
-    "tags": ["personalizable", "mayoristas"],
+    "tags": [
+      "personalizable",
+      "mayoristas"
+    ],
     "estado": "activo",
-    "categorias": ["wax-melts"]
+    "categorias": [
+      "wax-melts"
+    ]
   }
 ]

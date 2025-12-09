@@ -173,6 +173,9 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             ))}
           </div>
         ) : null}
+        <p className="text-xs italic text-brand-charcoal/60 text-center mt-2">
+          * Las imágenes mostradas son generadas por inteligencia artificial basadas en las velas reales.
+        </p>
       </div>
 
       <div className="space-y-6">
@@ -348,6 +351,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           </p>
         </BorderPanel>
       </div>
-    </div>
+    </div >
   );
 }

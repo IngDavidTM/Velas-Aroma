@@ -14,17 +14,26 @@ export default function PaymentsPage() {
 
       <div className="grid gap-6 md:grid-cols-2">
         <BorderPanel>
-          <h3 className="text-lg font-semibold text-brand-brown">Pasarelas disponibles</h3>
-          <ul className="mt-3 space-y-2 text-sm text-brand-charcoal/80">
-            <li>Stripe: tarjetas de crédito/débito internacionales.</li>
-            <li>Mercado Pago: tarjetas locales, transferencias y puntos físicos.</li>
-            <li>Transferencia bancaria directa (Ecuador).</li>
+          <h3 className="text-lg font-semibold text-brand-brown">Métodos de pago aceptados</h3>
+          <p className="mt-3 text-sm text-brand-charcoal/80 mb-4">
+            Actualmente procesamos todos los pedidos de forma personalizada a través de WhatsApp. Aceptamos:
+          </p>
+          <ul className="space-y-2 text-sm text-brand-charcoal/80 list-disc list-inside">
+            <li>Transferencia bancaria directa (Pichincha, Guayaquil, Produbanco)</li>
+            <li>Depósito en efectivo (Mi Vecino / Banco del Barrio)</li>
+            <li>Deuna / PayPhone (consultar disponibilidad)</li>
           </ul>
         </BorderPanel>
         <BorderPanel>
-          <h3 className="text-lg font-semibold text-brand-brown">Moneda y seguridad</h3>
+          <h3 className="text-lg font-semibold text-brand-brown">¿Cómo funciona?</h3>
           <p className="mt-3 text-sm text-brand-charcoal/80">
-            Todos los precios están en USD e incluyen impuestos aplicables. Las transacciones se procesan con cifrado SSL y cumplimiento PCI. No almacenamos datos sensibles en nuestros servidores.
+            1. Realizas tu pedido en la web.<br />
+            2. Te redirigimos a WhatsApp con el detalle.<br />
+            3. Te enviamos los datos de cuenta para que realices el pago.<br />
+            4. Nos envías el comprobante y coordinamos el envío.
+          </p>
+          <p className="mt-2 text-sm text-brand-charcoal/80 font-medium">
+            Tu compra es 100% segura y cuentas con asistencia personalizada en todo momento.
           </p>
         </BorderPanel>
       </div>

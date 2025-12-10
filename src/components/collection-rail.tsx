@@ -56,7 +56,7 @@ export default function CollectionRail({ collections, className }: CollectionRai
           <Link
             key={collection.slug}
             href={`/categoria/${collection.slug}`}
-            className="group flex h-full flex-col overflow-hidden border border-brand-sand/70 opacity-0 translate-y-8 transition-all duration-700 hover:-translate-y-1 hover:shadow-lg"
+            className="group flex h-full flex-col overflow-hidden border border-brand-sand/70 opacity-0 translate-y-4 transition-all duration-700 hover:-translate-y-1 hover:shadow-lg"
           >
             <div className="relative h-40 w-full bg-brand-sand/30">
               <Image
@@ -65,7 +65,7 @@ export default function CollectionRail({ collections, className }: CollectionRai
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 loading="lazy"
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                className="object-cover transition-transform duration-500 group-hover:scale-100"
               />
               <span className="absolute inset-0 bg-gradient-to-t from-brand-cream/70 to-transparent transition group-hover:from-brand-brown/30" />
             </div>
